@@ -1,0 +1,595 @@
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+    margin: 0 auto;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
+    font-weight: normal;
+    font-size: 62.5%;
+    background:#F5F8FA none repeat scroll 0 0 !important;
+    color: #595B66;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    height:50px;
+    padding:2em 0;
+}
+header .header-logo {
+    margin: 0 50px 0 200px;
+    float: left;
+    width: 52px;
+    height:48px;
+    background: url("../Finance/images/logo.png") no-repeat  ;
+}
+header .header-menu {
+text-align: center;
+}
+.header-menu ul {
+}
+.header-menu ul li{
+
+    float: left;
+    line-height:38px;
+    margin: 0 1.2rem;
+}
+.header-menu ul li a{
+    color: #868686;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding: 6px 15px;
+}
+.header-menu ul li.active {
+    display: block;
+    width:62px;
+    height:38px;
+    text-align: center;
+    color: #fff;
+    background-color: #ffbb42;
+}
+nav {
+    height:500px;
+    background: #709dca;
+}
+nav .nav-header {
+    font:36px/1.2rem '微软雅黑', bold;
+    padding-top: 80px;
+    text-align: center;
+    color: #fff;
+}
+nav .nav-article p{
+    font-size: 1.24em;
+    margin-top: 12px;
+    text-align: center;
+    color: #fff;
+}
+nav .nav-form {
+    margin: 30px 0 0 250px;
+}
+nav .nav-form li {
+    list-style: none;
+    float: left;
+}
+nav .nav-form .nav-item {
+    height:34px;
+    margin-left: -10px;
+    padding-left: 30px;
+    width:220px;
+    border-radius: 5px;
+    color: #6C6C6C;
+}
+.nav-form .name {
+    position: relative;
+    top: 8px;
+    left: 24px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    display: inline-block;
+    background: url("../Finance/images/name.png") no-repeat center;
+}
+.nav-form .mail {
+    position: relative;
+    top: 8px;
+    left: 24px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    display: inline-block;
+    background: url("../Finance/images/mail.png") no-repeat center;
+}
+.nav-form .phone {
+    position: relative;
+    top: 8px;
+    left: 24px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    display: inline-block;
+    background: url("../Finance/images/phone.png") no-repeat center;
+}
+
+li input[type="submit"] {
+    margin-left: 10px;
+    margin-top: 2px;
+    background: rgba(255,187,66,0.82);
+    height:40px;
+    width:200px;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+li input[type="submit"]:hover {
+    outline:none;
+    border: none;
+    background: rgba(108,108,108,0.82);
+}
+.laptop {
+    margin:16px auto 0 auto;
+    height:343px;
+    width:648px;
+    text-align: center;
+    background: url("../Finance/images/laptop.png") no-repeat;
+}
+.carousel{
+    margin:10px auto 0 auto;
+    height:20px;
+    width:60px;
+    text-align: center;
+    background: url("../Finance/images/carsoual.png") no-repeat  center;
+}
+.container {
+ padding: 7em 0;
+    margin:0 auto;
+}
+.container-header {
+    margin: 0 auto;
+    text-align: center;
+}
+.container-header h1{
+    color: #394b50;
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.container-header p {
+    color: #394b50;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.container-content {
+    float: left;
+    display: inline-block;
+    width: 1170px;
+    margin: 3em 16em;
+}
+.container-content .content-main {
+    width: 540px;
+    float: left;
+}
+.container-content .content-img-left {
+    height:45px;
+    line-height:112.54px;
+    width:45px;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    background: url("../Finance/images/time.png") no-repeat  center;
+}
+.container-content .content-right {
+   margin:0 6em;
+}
+.content-header { 
+    color: #394b50;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0.85em;
+}
+.content-span {
+    margin-bottom: 30px;
+    color: #7b7b7b;
+    font-size: 0.92em;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.container-section {
+    float: left;
+}
+.container-img-left {
+    height:450px;
+    width:50%;
+    float: left;
+    background: url("../Finance/images/layer.png") no-repeat;
+}
+.container-article {
+    color: #fff;
+    width:50%;
+    float: right;
+    height:450px;
+    background: rgba(255,187,66,0.82);
+}
+.container-article .article-header {
+    padding: 98px 112px 0 112px;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-article .article-p {
+    padding: 0 60px 0 112px;
+font-size: 1.2em;
+font-weight: 300;
+line-height: 1.9em;
+margin: 1.6em 0 2em 0;
+}
+.read-more {
+    padding-left: 112px;
+}
+.container-article input[type="button"] {
+    background: rgb(255,187,66);
+    font-weight: 300;
+    padding: 9px 18px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #e7ad48;
+}
+/*choose your price*/
+.part-two {
+  text-align: center;
+}
+.part-two-con {
+margin: 0 auto;
+}
+.part-two-header {
+
+}
+.part-two-header h3 {
+    color: #394b50;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.part-two-header p {
+    color: #394b50;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.part-two-imgs {
+    margin-top: 30px;
+    display: inline-block;
+}
+.part-two-img1 {
+    margin-top: 20px;
+    width:371px;
+    height:401px;
+    float: left;
+    background: url("../Finance/images/pay-1.png") no-repeat center ;
+}
+.part-two-img2 {
+    width:391px;
+    height:441px;
+    float: left;
+    background: url("../Finance/images/pay-2.png") no-repeat center ;
+}
+.part-two-img3 {
+    margin-top: 20px;
+    width:371px;
+    height:401px;
+    float: left;
+    background: url("../Finance/images/pay-3.png") no-repeat center ;
+}
+.part-three {
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+    max-width:1200px;
+    border:1px solid salmon;
+    margin: 0 auto;
+}
+.three-con {
+    /*float: left;*/
+    overflow: hidden;
+}
+
+.part-three .part-three-header h3 {
+    color: #394b50;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.part-three .part-three-header p {
+    color: #394b50;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.part-three-con  {
+    /*margin: 2rem auto;*/
+    overflow: hidden;
+    border: 1px solid royalblue;
+}
+.part-three .three-con {
+    /*float: left;*/
+    /*width:15%;*/
+    /*margin: 0 auto;*/
+    border: 2px solid forestgreen;
+}
+.three-con .three-con-img {
+    width:71px;
+    margin: 0 auto;
+    height:61px;
+    background: url("../Finance/images/earphone.png") no-repeat ;
+}
+.part-three-con-header {
+    margin: 10px;
+    border: 1px solid saddlebrown;
+}
+part-three-arrow1 {
+    float: left;
+    position: relative;
+    left:0;
+    top:0;
+    width:128px;
+    height:32px;
+    z-index: 10;
+    background: url("../Finance/images/Arrow_1.png") no-repeat ;
+}
+part-three-arrow2{
+    float: left;
+    position: relative;
+    left:0;
+    top:50px;
+    width:128px;
+    height:32px;
+    z-index: 10;
+    background: url("../Finance/images/Arrow_2.png") no-repeat ;
+}
+part-three-arrow3{
+    float: left;
+    position: relative;
+    left:0;
+    top:0;
+    width:128px;
+    height:32px;
+    z-index: 10;
+    background: url("../Finance/images/Arrow_3.png") no-repeat ;
+}
+.part-three-con-header h3 {
+    color: #394b50;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+    text-transform: uppercase;
+    margin-top: 4em;
+}
+.part-three-con-header p {
+    color: #7b7b7b;
+    font-size: 0.95em;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-bottom: 6em;
+}
+.start-now {
+    margin-top: 20px;
+    width: 164px;
+    height:40px;
+    outline: none;
+    border:none;
+    background: rgba(255,187,66,0.82);
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 11px 23px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.part-four {
+    margin-top: 50px;
+    background-color: rgba(255,187,66,0.82);
+}
+.part-four-header {
+    text-align: center;
+}
+.part-four-header h3 {
+color: #fff;
+font-size: 4rem;
+font-weight: 900;
+text-transform: uppercase;
+}
+.part-four-header span {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.part-four-con {
+    width:1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align:center;
+}
+.part-happy-clients {
+    background: #fff;
+    margin: 10px 15px;
+    padding: 10px;
+    width: 500px;
+    display: inline-block;
+
+}
+.four-img-left img {
+    float: left;
+}
+.four-intro-right {
+    margin: 0 10px;
+}
+.four-intro-right p {
+    text-align: center;;
+    color: #7b7b7b;
+    font-size: 0.95em;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-bottom: 1.2em;
+}
+.four-intro-right h4 {
+    color: #99a9ae;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.part-five {
+text-align: center;
+    margin-top: 40px;
+}
+.part-five-header {
+    margin:0 auto;
+}
+.part-five-header h3 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.part-five-header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+ .nav-form {
+     display: inline-block;
+     margin: 0 auto;
+     overflow: hidden;
+}
+.nav-form li {
+    list-style: none;
+    float: left;
+}
+ .nav-form .nav-item {
+    height:34px;
+    margin-left: -10px;
+    padding-left: 30px;
+    width:250px;
+    border-radius: 5px;
+    color: #6C6C6C;
+}
+.nav-form .name {
+    position: relative;
+    top: 8px;
+    left: 24px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    display: inline-block;
+    background: url("../Finance/images/name.png") no-repeat center;
+}
+.nav-form .mail {
+    position: relative;
+    top: 8px;
+    left: 24px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    display: inline-block;
+    background: url("../Finance/images/mail.png") no-repeat center;
+}
+.nav-form .phone {
+    position: relative;
+    top: 8px;
+    left: 24px;
+    width:25px;
+    height:25px;
+    text-align: center;
+    display: inline-block;
+    background: url("../Finance/images/phone.png") no-repeat center;
+}
+
+li input[type="submit"] {
+    margin-left: 10px;
+    margin-top: 2px;
+    background: rgba(255,187,66,0.82);
+    height:40px;
+    width:200px;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+li input[type="submit"]:hover {
+    outline:none;
+    border: none;
+    background: rgba(108,108,108,0.82);
+}
+.part-five-con {
+    display: inline-block;
+    margin:50px auto;
+    width:100%;
+    height:100%;
+    /*height:500px;*/
+    background: url("../Finance/images/Map.png") no-repeat center;
+}
+.part-five-img {
+  margin-top: 50px;
+}
+.sperate {
+    border: 1px solid #e3e7ec;
+}
+/*最后的部分*/
+footer {
+ margin-top: 50px;
+    text-align: center;
+}
+footer .footer-nav {
+margin: 0 auto;
+}
+.footer-nav ul {
+    display: inline-block;
+    margin:0 auto;
+    height:40px;
+    text-align: center;
+    padding:0;
+    overflow: hidden;
+}
+.footer-nav ul li {
+    float: left;
+    margin:0 20px;
+}
+.footer-nav ul li a{
+    font-size: 1.05em;
+    font-family: 'Lato', sans-serif;
+    color: #394b50;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+.call {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+    color: #394b50;
+    font-weight: 700;
+    margin: 1em 0;
+}
+i.phone {
+    height: 25px;
+    width: 25px;
+    background: url(../Finance/images/phone1.png) no-repeat 12px 6px;
+    display: inline-block;
+    vertical-align: sub;
+}
+.copyrights {
+    line-height:50px;
+    height:50px;
+    background: #709dca;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 400;
+}
