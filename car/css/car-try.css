@@ -1,0 +1,156 @@
+body {
+    max-width: 640px;
+    margin: auto;
+    min-height: 100%;
+    background-color: #e1e0de;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.231;
+    -webkit-touch-callout: none;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+}
+.header {
+    width: 100%;
+    position: relative;
+    display: block;
+    min-height: 30px;
+}
+.header img {
+    min-width: 320px;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    min-width: 320px;
+    margin: 10px;
+}
+.container .order {
+    border-radius: 5px;
+    padding:0 6px;
+    text-align: left;
+    float: left;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+}
+.container em {
+    text-align: center;
+    background: green;
+  padding: 5px 8px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: -33px;
+    float: right;
+}
+.container span i {
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -28px;
+    float: right;
+}
+.container ul.intro-text {
+    border-radius: 5px;
+    margin: 14px 0;
+    display: inline-block;
+    padding:0 6px;
+    background: #fff;
+    text-align: left;
+}
+.container ul.intro-text li h2 {
+    border-bottom: 1px solid #c0c0c0;
+    font-size: 18px;
+    line-height: 30px;
+}
+.container ul.intro-text li .text {
+    padding: 14px 0;
+}
+.container ul.intro-text li .text p {
+    line-height: 24px;
+    text-indent: 2em;
+    color: grey;
+}
+.container .addr-tel {
+    background: #fff;
+    border-radius: 5px;
+}
+.container .addr-tel .addr, .tel {
+    height: 80px;
+    margin-top: 10px;
+}
+.container .addr-tel li.addr {
+    overflow: hidden;
+    border-bottom: 1px solid #c0c0c0;
+}
+.container .addr-tel a {
+    line-height: 22px;
+    color: #2E8B57;
+    font-size: 15px;
+}
+.container .addr .left {
+    float: left;
+    margin-left: 6px;
+}
+.container .addr .right {
+    float: right;
+    width: 90%;
+}
+.container .tel .left {
+    float: left;
+    margin-left: 6px;
+}
+.container .tel .right {
+    float: right;
+    width: 90%;
+}
+button[type="submit"] {
+    width: 100%;
+    height: 44px;
+    background: green;
+    color: #fff;
+    border: none;
+}
+.form {
+margin: 10px 0;
+}
+.form li input{
+    width: 72%;
+    border: 1px solid #c0c0c0;
+    margin: 6px 0;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 36px;
+}
+.form li textarea {
+    width: 76%;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+.form li span {
+    margin: 6px 0;
+    height: 36px;
+    line-height: 36px;
+    width: 80px;
+    float: left;
+}
+.form li input {
+    float: right;
+}
+.form li.title {
+    height: 36px;
+    border: 1px solid #c0c0c0;
+    width: 100%;
+    border-radius: 5px;
+}
+.form .title h3 {
+    line-height: 36px;
+}

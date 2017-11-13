@@ -1,0 +1,93 @@
+/*页脚*/
+footer {
+    width:100%;
+    height:300px;
+    border-top: solid 10px #ec005f;
+    color: #fff;
+    background-color: #f9fafb;
+    background: url("../img/footer-.jpg") ;
+}
+.footer-top {
+    padding:50px 50px 0 50px;
+}
+.footer-top ul {
+    overflow: hidden;
+    width:calc((100% / 4) - 40px);
+    float: left;
+    padding: 0 20px;
+}
+.footer-top ul p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 22px 0 10px 0;
+
+}
+footer .footer-top ul.footer-one li {
+
+    float: left;
+}
+.footer-top .footer-icon a {
+    color: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    width: 32px;
+    margin-right: 8px;
+}
+.footer-two .footer-two-header {
+
+}
+.footer-two-header h3 {
+    color: #fff;
+    border-bottom: 1px solid #5b5b5b;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+.footer-two .footer-two-header li {
+    float: none;
+}
+.footer-two  li a {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+    border-bottom: 1px solid #5b5b5b;
+}
+.footer-two  li a::before {
+    content: "\f101";
+    display: inline-block;
+    font-family: fontawesome;
+    margin-right: 8px;
+    position: relative;
+    top: 0;
+}
+.footer-four-ul li a{
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+    border-bottom: 1px solid #5b5b5b;
+}
+.footer-four-ul i {
+    border: 1px solid #d5d5d5;
+    border-radius: 0;
+    float: left;
+    font-size: 16px;
+    height: 34px;
+    line-height: 30px;
+    margin-right: 15px;
+    text-align: center;
+    width: 32px;
+}
