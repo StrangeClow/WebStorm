@@ -1,0 +1,122 @@
+
+.container {
+
+}
+.con-main {
+    width:1170px;
+    margin: 0 auto;
+}
+.part-one {
+
+}
+.part-one ul {
+    overflow: hidden;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style: none;
+    border-radius: 4px;
+    background: #f5f5f8;
+}
+.part-one ul li.active::before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
+.part-one ul li {
+    float: left;
+}
+.part-one ul li a {
+    color: #000;
+}
+.part-one ul li:first-child {
+    font-weight: 600;
+}
+.part-one-intro {
+    overflow: hidden;
+}
+.part-one-intro .intro-left {
+    float: left;
+}
+.part-one-intro .intro-right {
+    float: right;
+    width:500px;
+
+}
+.intro-right h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.intro-right h1 span {
+    color: #ec005f;
+}
+.intro-right p {
+    line-height:32px;
+}
+
+/*第二部分*/
+.part-two {
+    padding:120px 0;
+    background:url("../img/about/about-bg.jpg") no-repeat fixed center center/cover;
+}
+.part-two-mian {
+    overflow: hidden;
+}
+.two-four-items {
+    float: left;
+   width: calc((100% / 4) - 8px );
+    color: crimson;
+    text-align: center;
+}
+.part-two .part-two-mian .two-four-items i {
+    border: 2px solid #ec005f;
+    color: #fff;
+    font-size: 40px;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+    transition: background 0.3s ease 0s, color 0.3s ease 0s, box-shadow 0.3s ease 0s;
+    width: 80px;
+}
+.part-two-mian .two-four-items h3 {
+    color: #fff;
+    font-size:26px;
+}
+.part-two-mian .two-four-items span {
+    color: cadetblue;
+    font-size: 16px;
+}
+
+/*第三部分*/
+.part-three .two-four-items {
+    margin: 4px;
+}
+.part-three .two-four-items:hover {
+    background: crimson;
+    color: #fff;
+    margin: 4px;
+}
+.part-three .two-four-items img {
+    border-radius: 50%;
+}
+.part-three-right {
+    padding: 20px;
+}
+.part-three-right .part-three-icon a {
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    width: 32px;
+    margin-right: 8px;
+    border: 1px solid #ec005f;
+
+}
+.part-three .part-three-icon i {
+    font-size: 14px;
+    border-radius: 50%;
+
+}

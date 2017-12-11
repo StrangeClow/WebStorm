@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*主体部分*/
+.banner {
+    width:100%;
+    margin: 0 auto;
+    background-size: cover;
+}
+.banner img {
+    max-width: 100%;
+    display: block;
+    height:auto;
+}
+.contanier {
+    max-width: 1200px;
+    margin: 3em auto;
+    overflow: hidden;
+}
+.contanier .con-left {
+    width: 20%;
+    float: left;
+}
+.contanier .con-left ul li {
+    line-height: 50px;
+}
+.contanier .con-left ul li a {
+    color: tan;
+    font-size: 16px;
+
+}
+.con-right {
+    float: left;
+}
+.con-right-top {
+
+}
+.con-right .con-right-top img{
+
+}
+.con-right-main {
+
+}
+.con-right-main .right-main-item {
+
+}
+.con-right-main .right-main-item h3,p {
+    text-align: left;
+    color: #494949;
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}

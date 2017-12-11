@@ -1,0 +1,84 @@
+/*最后一部分*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Tahoma,Arial,Helvetica,"微软雅黑";
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix {
+    content: "";
+    clear: both;
+    font-size: 1px;
+    height: 0;
+    visibility: hidden;
+    line-height: 0;
+}
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background: #f1f5f9;
+    height: 260px;
+    overflow: hidden;
+}
+.footer-main {
+    width:1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.footer-left {
+    float: left;
+}
+.footer-left span {
+
+}
+.footer-left span i {
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    background: #2E8B57;
+    border-radius: 50%;
+}
+.footer-right {
+    float: right;
+    margin-right: 10%;
+}
+.footer-right ul {
+    overflow: hidden;
+
+}
+.footer-right ul li {
+    float: left;
+    margin: 0px 30px;
+}
+.footer-right ul li .footer-info h2 {
+    padding: 10px;
+    color: #666;
+}
+.footer-right ul li .footer-info ul {
+
+}
+.footer-right ul li .footer-info ul li {
+    float: none;
+    padding: 4px;
+}
+.footer-right ul li .footer-info ul li a{
+    color: #000000;
+    font-size: 14px;
+    line-height: 25px;
+}

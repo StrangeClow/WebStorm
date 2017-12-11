@@ -1,0 +1,242 @@
+/*公共*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Tahoma,Arial,Helvetica,"微软雅黑";
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix {
+    content: "";
+    clear: both;
+    font-size: 1px;
+    height: 0;
+    visibility: hidden;
+    line-height: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    margin: 0 auto;
+}
+.header-wrapper {
+    max-width: 1200px;
+    margin:  0 auto;
+    overflow: hidden;
+}
+.header-left {
+
+}
+.header-left a {
+    float: left;
+    line-height:60px;
+    display: inline-block;
+}
+.header-left a img {
+    width:100%;
+    vertical-align: middle;
+}
+.logo-intro {
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header-right ul li {
+    float: left;
+    line-height:60px;
+    font-size: 16px;
+}
+.header-right ul li a {
+    padding:19px 37px;
+    color: #000;
+    line-height:60px;
+}
+.header-right ul li.active a {
+    padding: 19px 37px;
+    color: #ea581a;
+    border-bottom: 1px solid #ea581a;
+}
+.header-right ul li:hover a {
+    padding: 19px 37px;
+    color: #ea581a;
+    border-bottom: 1px solid #ea581a;
+}
+
+
+.carousel {
+    position: relative;
+    height: 440px;
+    width: 100%;
+}
+.carousel-img li a img{
+    width:100%;
+    display:block;
+    height:440px;
+}
+
+.news-info {
+    margin-top: 1px;
+    background: #3a8ed1;
+    height:60px;
+}
+.news-info .news-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 1%;
+    overflow: hidden;
+}
+.news-left {
+    line-height:60px;
+    vertical-align: middle;
+}
+.news-active {
+    margin-top: 15px;
+    float: left;
+    border: none;
+    line-height: 32px;
+    height:32px;
+    text-align: center;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: dodgerblue;
+    font-size: 16px;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: dodgerblue;
+    font-size: 16px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: dodgerblue;
+    font-size: 16px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: dodgerblue;
+    font-size: 16px;
+}
+
+.angel {
+    margin-top: 15px;
+    float: left;
+    width:0;
+    border-left: 16px solid red;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-top: 16px solid transparent;
+}
+.list-items {
+    font-size: 16px;
+    float: left;
+    color: #fff;
+}
+.news-right {
+    margin-top: 20px;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
+/*主体内容*/
+.container {
+    max-width: 1200px;
+    margin:10px auto;
+    overflow: hidden;
+}
+.container ul {
+    overflow: hidden;
+}
+.container ul li {
+    float: left;
+    margin:10px;
+    width: calc((100%) / 3 - 20px);
+    background: #ededed;
+    height:38em;
+}
+.content-info {
+    margin-top: 10px;
+}
+.content-info h3 {
+    font-size: 18px;
+    color: #1999d7;
+    line-height: 30px;
+}
+.content-info p {
+    font-size: 14px;
+    color: #494949;
+    text-align: left;
+    line-height: 25px;
+    padding: 0 54px;
+}
+
+/*最后一部分*/
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background: #f1f5f9;
+    height: 260px;
+    overflow: hidden;
+}
+.footer-main {
+    width:1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.footer-left {
+    float: left;
+}
+.footer-left span {
+
+}
+.footer-left span i {
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    background: #2E8B57;
+    border-radius: 50%;
+}
+.footer-right {
+    float: right;
+    margin-right: 10%; 
+}
+.footer-right ul {
+    overflow: hidden;
+
+}
+.footer-right ul li {
+    float: left;
+    margin: 0px 30px;
+}
+.footer-right ul li .footer-info h2 {
+    padding: 10px;
+    color: #666;
+}
+.footer-right ul li .footer-info ul {
+    
+}
+.footer-right ul li .footer-info ul li {
+    float: none;
+    padding: 4px;
+}
+.footer-right ul li .footer-info ul li a{
+    color: #000000;
+    font-size: 14px;
+    line-height: 25px;
+}

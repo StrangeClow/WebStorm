@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*主体部分*/
+.banner {
+    width:100%;
+    margin: 0 auto;
+    background-size: cover;
+}
+.banner img {
+    max-width: 100%;
+    display: block;
+    height:auto;
+}
+
+.contanier {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.con-top {
+margin-top: 20px;
+}
+.con-top ul li {
+    float: left;
+    padding: 10px;
+    width:calc((100% / 3) - 20px);
+}
+.info-content {
+    padding: 5px 0;
+    position: relative;
+    top:-46px;
+    opacity: 0.6;
+    background: #dce0e5;
+}
+.info-content p {
+font-size: 14px;
+    color: #000;
+}
+.info-content p span {
+    font-size: 18px;
+    padding: 5px;
+    display:inline-block;
+    background: orangered;
+}
+
+.news-contact {
+    overflow: hidden;
+}
+.news-contact ul {
+
+}
+.news-contact ul li {
+    font-size: 14px;
+    line-height: 35px;
+    text-align: left;
+    margin: 5px;
+    border-bottom: 1px dashed #878787;
+}
+.news-contact ul li p {
+    overflow: hidden;
+}
+.news-contact ul li a{
+    float: left;
+    color: crimson;
+}
+.news-contact ul li span {
+    float: right;
+}
+/*分页*/
+.pagination {
+margin: 20px auto;
+    overflow: hidden;
+}
+.pagination ul {
+    float: right;
+}
+.pagination ul li {
+    float: left;
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+.pagination ul li:hover {
+    background: cadetblue;
+    color: #fff;
+    border-radius: 5px;
+}
+.pagination ul li.active {
+    background: cadetblue;
+    color: #fff;
+    border-radius: 5px;
+}
+.pagination ul li a {
+    color: #000;
+    font-size: 16px;
+}

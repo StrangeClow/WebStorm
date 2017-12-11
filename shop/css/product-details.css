@@ -1,0 +1,336 @@
+/*第三部分*/
+* {
+    margin:0;
+    padding:0;
+}
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+.con-main {
+    width:1170px;
+    margin: 0 auto;
+}
+.part-one {
+
+}
+.part-one ul {
+    overflow: hidden;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    list-style: none;
+    border-radius: 4px;
+    background: #f5f5f8;
+}
+.part-one ul li.active::before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
+.part-one ul li {
+    float: left;
+}
+.part-one ul li a {
+    color: #000;
+}
+.part-one ul li:first-child {
+    font-weight: 600;
+}
+
+/*衣服详情列表*/
+.part-two {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+/*左测*/
+.part-two .part-two-left {
+    width:50%;
+    float: left;
+}
+.part-two-left .left-img-big {
+
+}
+.part-two-left .left-img-big img{
+    width:100%;
+}
+.part-two-left .left-img-items {
+    overflow: hidden;
+}
+.part-two-left .left-img-items ul {
+
+}
+.part-two-left .left-img-items ul  li {
+    float: left;
+    width:calc((100% / 4) - 4px);
+    padding:0 2px;
+}
+.part-two-left .left-img-items ul li a {
+
+}
+.part-two-left .left-img-items ul li a img {
+
+}
+/*右侧*/
+.part-two .part-two-right {
+    float: left;
+    padding-left: 20px;
+    width:calc(50% - 20px);
+}
+.part-two-right .two-right-top {
+border-bottom: 1px solid #c0c0c0;
+
+}
+.part-two-right .two-right-top .mark {
+ margin: 10px 0;
+}
+.part-two-right .two-right-top .new-price {
+    color: #ec005f;
+    font-size: 26px;
+    line-height:30px;
+    height:30px;
+}
+.part-two-right .two-right-top .old-price {
+    color: #666;
+    font-size: 14px;
+}
+.part-two-right .two-right-center {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+.part-two-right .two-right-center p {
+    line-height:30px;
+
+}
+.part-two-right .two-right-bottom {
+
+}
+.two-right-bottom .choose {
+
+}
+.two-right-bottom .choose h3 {
+    float: left;
+    width:50%;
+    color: #666666;
+    font-weight: 600;
+}
+.choose-detail {
+
+}
+.choose-detail select {
+    float: left;
+    width:calc(40%  );
+    height:30px;
+    line-height:30px;
+    margin-right: 55px;
+
+}
+.choose-number {
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.choose-number input {
+text-align: center;
+    line-height:30px;
+  border: 1px solid #666666;
+}
+.add-to-cart {
+ background: #666666;
+    border: none;
+    width:8em;
+}
+.choose-number i {
+    border: 1px solid #666666;
+    padding:9px;
+
+}
+.model {
+
+}
+.model h5 {
+    line-height:30px;
+}
+.share {
+
+}
+.share i {
+    margin: 6px ;
+    padding: 10px;
+    border-radius: 50%;
+    background: seagreen;
+}
+
+/*第三部分选项卡相关*/
+.part-three {
+
+}
+.part-three .tabs {
+    list-style: none;
+    overflow: hidden;
+}
+.part-three .tabs li {
+    float: left;
+    padding: 10px;
+    margin: 0 10px 0  0;
+    border: 2px solid #e9e9e9;
+}
+.part-three .tabs li a {
+    color: #000;
+}
+.description {
+    margin: 10px 0;
+    border: 1px solid #e9e9e9;
+}
+.description p {
+    padding: 5px 10px;
+}
+.reviews {
+    margin: 10px 0;
+    border: 1px solid #e9e9e9;
+}
+.reviews-con {
+    padding: 10px;
+}
+.person-info {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.person-info-l {
+    float: left;
+}
+.person-info-r {
+   margin-left: 6em;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+.person-info-r .title {
+    font-size: 20px;
+    font-weight:700;
+}
+.person-info-r .star {
+    float: right;
+}
+
+.person-info-r P + p {
+    line-height:30px;
+}
+.review-form-wrapper {
+padding-right: 25px;
+}
+.review-form-wrapper h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.review-form-wrapper input {
+    width:100%;
+    height:30px;
+    margin: 8px 0;
+    padding-left: 20px;
+    line-height:30px;
+}
+.review-form-wrapper span {
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+}
+.review-form-wrapper span i {
+    color: #666;
+}
+.review-form-wrapper span i:hover {
+    color: #ec005f;
+}
+textarea {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.review-form-wrapper input[type="submit"] {
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 40px;
+    padding: 0 30px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    width: auto;
+}
+.review-form-wrapper input[type="submit"]:hover {
+    background: #ec005f;
+    color: #fff;
+}
+
+/*第四部分 新品上架*/
+.part-four {
+
+}
+.part-four .new-clothes-title {
+    text-align: center;
+}
+.part-four .new-clothes-title h1 {
+
+}
+.part-four .clothes-tab {
+    overflow: hidden;
+}
+.part-four .clothes-tab li {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width:calc((100% ) /4 - 20px);
+}
+/*左右导航箭头*/
+.part-four span {
+    color: seagreen;
+}
+.part-four span i {
+    padding:10px;
+    color: seagreen;
+    border:1px solid #333333;
+}
+.owl-next {
+      float: right;
+  }
+.owl-prev {
+    float: left;
+    background: seagreen;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    color: #666;
+    display: inline-block;
+    font-size: 25px;
+    height: 40px;
+    left: -30px;
+    line-height: 38px;
+    margin: -20px 0 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+.new-clothes-info .new-price {
+    font-size: 26px;
+    font-weight: 700;
+    color: crimson;
+}
+.new-clothes-info .old-price {
+    font-size: 14px;
+    font-weight: 500;
+    color: cadetblue;
+    text-decoration: line-through;
+}

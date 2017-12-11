@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+div.banner {
+    width: 100%;
+    margin: 0 auto;
+    height: 450px;
+    background-size: cover;
+    overflow: hidden;
+    background:  url("../img/product_banner.png")no-repeat center;
+}
+div.banner h1 {
+    margin: 0;
+    padding-top: 150px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+div.banner a {
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px solid #27b0e7;
+    line-height: 30px;
+    font-size: 18px;
+    color: #27b0e7;
+    padding: 10px 15px;
+}
+/*第一部分*/
+.container {
+    max-width: 1200px;
+    margin:30px auto;
+    overflow: hidden;
+}
+.container .part-one {
+    overflow: hidden;
+}
+.container .part-one .part-one-left {
+    float: left;
+    width: 50%;
+
+}
+.container .part-one-left img {
+
+}
+.container .part-one .part-one-right {
+    float: right;
+    width:50%;
+}
+.container .part-one .part-one-right h2  {
+text-align: left;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container .part-one .part-one-right  p {
+text-align: left;
+    padding: 30px 30px 0 0;
+    line-height: 30px;
+    font-size: 13px;
+}
+.container .part-one .part-one-right a {
+    margin-top: 30px;
+    float: left;
+    color: #fff;
+    background: #27b0e7;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/*第二部分*/
+.container .part-two {
+    padding-top: 30px;
+    overflow: hidden;
+    margin: 30px auto;
+    border-top: 1px solid #e9e9e9;
+}
+.container .part-two .part-two-left {
+    float: left;
+    width: 50%;
+
+}
+.container .part-two-right img {
+
+}
+.container .part-two .part-two-right {
+    float: right;
+    width:50%;
+}
+.container .part-two .part-two-left h2  {
+    text-align: left;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container .part-two .part-two-left  p {
+    text-align: left;
+    padding: 30px 30px 0 0;
+    line-height: 30px;
+    font-size: 13px;
+}
+.container .part-two .part-two-left a {
+    margin-top: 30px;
+    float: left;
+    color: #fff;
+    background: #27b0e7;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/*第三部分*/
+.part-three {
+    border-top: 1px solid #e9e9e9;
+}
+.part-three h2 {
+padding-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.part-three p {
+    padding: 20px 25%;
+    left: 30px;
+    font-size: 14px;
+}
+.part-three-info {
+    overflow: hidden;
+    width:60em;
+    margin: 0 auto;
+}
+.part-three-info ul {
+    overflow: hidden;
+}
+.part-three-info ul li {
+    float: left;
+    margin: 20px 90px;
+    width: 120px;
+}
+.part-three-info ul li span {
+    float: left;
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    display: inline-block;
+    border: 2px solid #2cb2e8;
+    margin-left: 11px;
+}
+.part-three-info ul li span i{
+    font-size: 26px;
+    line-height: 88px;
+    color: #27b0e7;
+}
+.part-three-info ul li a {
+    margin-top: 20px;
+    border-radius: 8px;
+    float: left;
+    padding: 10px 35px;
+    color: #27b0e7;
+    border: 2px solid #2cb2e8;
+    display: inline-block;
+    font-size: 16px;
+}

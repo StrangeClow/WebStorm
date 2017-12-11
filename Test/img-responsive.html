@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>响应式图片</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+ .container {
+        margin: 0 auto;
+     width:100%;
+     background: rgba(255,204,204,0.48);
+    }
+    .img-title {
+        text-align: center;
+    }
+    .img-title h3 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .img-wrapper {
+        margin: 20px;
+        background: #1B86BD;
+    }
+    .img-wrapper ul {
+        list-style: none;
+    }
+    .img-wrapper ul li {
+        float: left;
+        padding: 10px;
+        width: calc((100% / 4) - 20px);
+    }
+   .img-wrapper ul li img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+       border: outset;
+    }
+
+    /*媒介查询*/
+@media screen and (min-width: 900px)and (max-width:1400px) {
+    body {
+        background-color:lightblue;
+    }
+    .img-wrapper ul li {
+        width:calc((100% / 3) - 20px);
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width:600px){
+    body {
+        background-color:indianred;
+    }
+    .img-wrapper ul li {
+        width:calc((100% / 2) - 20px);
+    }
+}
+@media screen and (max-width: 600px) and (min-width:300px){
+    body {
+        background-color:indianred;
+    }
+    .img-wrapper ul li {
+        width:calc(100%  - 20px);
+    }
+}
+</style>
+<body>
+    <!--包裹图片列表的容器-->
+    <div class="container">
+        <div class="img-title">
+            <h3>响应式图片处理</h3>
+        </div>
+        <div class="img-wrapper">
+            <ul>
+                <div class="img-items">
+                    <li><img src="../Test/imgs/work1.jpg" alt="" class="img-responsive"></li>
+                    <li><img src="../Test/imgs/work2.jpg" alt="" class="img-responsive"></li>
+                    <li><img src="../Test/imgs/work3.png" alt="" class="img-responsive"></li>
+                    <li><img src="../Test/imgs/work5.jpg" alt="" class="img-responsive"></li>
+                    <li><img src="../Test/imgs/work5.jpg" alt="" class="img-responsive"></li>
+                    <li><img src="../Test/imgs/work6.jpg" alt="" class="img-responsive"></li>
+                    <li><img src="../Test/imgs/work7.jpg" alt="" class="img-responsive"></li>
+                    <li><img src="../Test/imgs/work8.png" alt="" class="img-responsive"></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
