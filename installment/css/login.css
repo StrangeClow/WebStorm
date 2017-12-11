@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1200px;
+    height: auto;
+    max-width: 1200px;
+    margin:  0 auto;
+}
+a {
+    text-decoration: none;
+}
+ ul li {
+     list-style: none;
+ }
+/*header begin*/
+header {
+    position: relative;
+    margin: 30px 0 10px 0;
+    overflow: hidden;
+}
+.header-wrapper {
+    padding: 0 50px;
+}
+header a {
+    float: left;
+    background: url("../imgs/u-icon.png") no-repeat 0 -136px ;
+    height: 50px;
+    width: 300px;
+    display:inline-block;
+}
+header h2 {
+    float: right;
+    line-height: 50px;
+}
+.container {
+    position: relative;
+    padding-top: 40px;
+}
+.container .container-wrapper {
+    padding: 50px;
+    overflow: hidden;
+}
+.container .left {
+    float: left;
+}
+.container .right {
+    float: right;
+}
+.container .right form .form-user, .container .right form .form-lock {
+     padding: 10px 0;
+}
+.container .right .form-user input, .container .right .form-lock input {
+    height: 36px;
+    width: 260px;
+    border: 1px solid #f1f1f1;
+    text-indent: 1rem;
+}
+.container .right .form-user button, .container .right .form-lock button {
+    border: none;
+    height: 38px;
+    width: 50px;
+    background: #f1f1f1;
+}
+.check {
+    padding: 16px 0;
+    height: 37px;
+    line-height: 37px;
+}
+.check .remember-me {
+    line-height: 37px;
+    margin-right: 10px;
+}
+.check span {
+    float: right;
+}
+form .login {
+    background: #00bdd5;
+    height: 38px;
+    border: none;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.register {
+ padding-top: 20px;
+    font-size: 14px;
+}
+.register a {
+    color: #0099e5;
+}
+.topic-item {
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid #eeeff2;
+    border-bottom: 1px solid #eeeff2;
+}
+.topic-item .left {
+    float: left;
+}
+.topic-item .right {
+    float: right;
+}
+.topic-item  ul {
+    overflow: hidden;
+}
+.topic-item  ul li{
+    float: left;
+   padding: 16px 0;
+}
+.topic-item .left ul li a {
+    padding: 0 16px;
+    color: #999;
+    font-size: 14px;
+    border-right: 1px solid #eeeff2;
+}
+.topic-item .left ul li:first-child a {
+    padding-left: 0;
+}
+.topic-item .right ul li a {
+    padding: 0 16px;
+    color: #999;
+    font-size: 14px;
+}
+.right li a span {
+    background:#00bdd5;
+    color: #fff;
+    padding: 5px;
+    margin-right: 6px;
+    border-radius: 2px;
+}
+
+
+/*footer 开始*/
+footer {
+    position: relative;
+    margin: 0 auto;
+}
+footer .footer-item {
+ margin: 0 auto;
+    text-align: center;
+
+}
+.footer-item ul {
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+}
+.footer-item ul li {
+    float: left;
+    padding:40px 6px ;
+}
+.footer-item ul li a {
+    display:block;
+    width: 125px;
+    height: 44px;
+}
+.footer-item ul li:first-child a{
+    background: url("../imgs/footer_03.png") no-repeat center;
+}
+.footer-item ul li:nth-of-type(2) a{
+    background: url("../imgs/footer_09.png") no-repeat center;
+}
+.footer-item ul li:nth-of-type(3) a{
+    background: url("../imgs/footer_07.png") no-repeat center;
+}
+.footer-item ul li:nth-of-type(4) a{
+    background: url("../imgs/footer_05.png") no-repeat center;
+}
+.footer-detail {
+    text-align: center;
+}
+.footer-detail p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #a1a1a1;
+    padding: 2px 0;
+}

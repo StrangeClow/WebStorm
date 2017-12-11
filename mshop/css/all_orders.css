@@ -1,0 +1,171 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: fixed;
+    background: #f5f5f5;
+    z-index: 10;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 16px;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav {
+    background-color: #fff;
+}
+nav ul {
+    text-align: center;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    width: calc(100% / 5);
+}
+nav ul li a {
+    color: #333333;
+    line-height: 4rem;
+    display: inline-block;
+}
+nav ul li a:link {
+    color: red;
+}
+nav ul li a.active {
+    color: red;
+    padding-bottom: .6rem;
+    border-bottom: 2px solid red;
+}
+
+/*交易记录*/
+section {
+    width: 100%;
+    position: relative;
+    padding-top: 8rem;
+    background-color: #f5f5f5;
+}
+section .order-wrapper {
+    position: relative;
+
+}
+.order-wrapper .order-item {
+    position: relative;
+    background: #fff;
+    margin-bottom: 1.4rem;
+    padding:1rem;
+}
+.order-item .order-title {
+    overflow: hidden;
+    position: relative;
+}
+.order-item .order-title .order-title-l {
+    float: left;
+    color: #aaaaaa;
+}
+.order-item .order-title .order-title-r {
+    float: right;
+    color: orangered;
+}
+.order-item .order-product {
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #eeee;
+    padding: 1.6rem 0;
+}
+.order-item .order-product .order-product-l {
+    float: left;
+    width: 8.4rem;
+    height:8.4rem;
+    margin-right: 1rem;
+}
+.order-product .order-product-l img {
+    width: 100%;
+    height: auto;
+}
+.order-item .order-product .order-product-r {
+    float:right;
+    width: 76%;
+}
+.order-product .order-product-r a {
+    color: #333;
+    font-size: 13px;
+}
+.order-product .order-product-r p {
+    padding: .4rem 0;
+    color: #6C6C6C;
+}
+.order-product-bottom {
+    overflow: hidden;
+}
+.order-product-bottom p:first-child {
+    float: left;
+}
+.order-product-r .order-product-bottom p {
+    padding: .2rem 0;
+}
+.order-product-bottom p:first-child span {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(197,13,20,0.81);
+}
+.order-product-bottom p:last-child {
+    float: right;
+    color: #111;
+    font-size: 12px;
+}
+.order-product-amount {
+    position: relative;
+    width: 100%;
+    float: right;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding:1.4rem  0;
+}
+.order-product-amount p {
+    float: right;
+}
+.order-product-amount p span:first-child{
+   font-size: 10px;
+    color: rgba(197,32,30,0.81);
+}
+.order-product-amount p span:last-child{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(197,32,30,0.81);
+}
+.order-product-operate {
+    position: relative;
+    float: right;
+    padding-top: 1rem;
+}
+.order-product-operate a {
+   padding: .6rem 1rem;
+    border-radius: .5rem;
+    color: #222;
+}
+.order-product-operate a:first-child {
+    border: 1px solid #555;
+}
+.order-product-operate a:last-child {
+    border: 1px solid orangered;
+    color: orangered;
+    margin-left: .4rem;
+}

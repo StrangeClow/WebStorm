@@ -1,0 +1,74 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-color: #e3e3e3;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 16px;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*交易记录*/
+section {
+    width: 100%;
+    position: relative;
+    background: #fff;
+    text-align: center;
+}
+section .chongzhi {
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    margin: 2.2rem auto;
+    border-top: 1px solid #e3e3e3;
+    /*background-color: #e3e3e3;*/
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+
+}
+section .chongzhi p {
+     font-size: 16px;
+    float: left;
+    display: inline-block;
+    line-height: 3rem;
+}
+.chongzhi input {
+    float: left;
+   border: none;
+    height: 3rem;
+    text-indent: 1rem;
+    width: 80%;
+    font-size: 16px;
+}
+section button {
+    margin-top: 1rem;
+    background-color: green;
+    border-radius: .6rem;
+    width: 90%;
+    height: 4rem;
+    border: none;
+    color: #fff;
+}
+

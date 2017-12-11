@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!-- 启用360浏览器的极速模式(webkit) -->
+	<meta name="renderer" content="webkit">
+	<!-- 避免IE使用兼容模式 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 不让百度转码 -->
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>修改密码</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/psd_chage.css" />
+	<link href="https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<body ontouchstart >
+<header>
+	<div class="header-wrapper">
+		<div class="header-left"><a href="login.html"><i class="fa fa-arrow-left"></i></a></div>
+		<div class="header-title">修改密码</div>
+	</div>
+</header>
+<div class="login-box">
+	<form action="#">
+		<div class="set-pwd">
+			<label for="">新密码</label>
+			<input type="text" placeholder="请输入密码">
+		</div>
+		<div class="phone">
+			<label for="">手机号</label>
+			<input type="text" placeholder="请输入手机号">
+			<button>获取验证码</button>
+		</div>
+		<div class="code">
+			<label for="">验证码</label>
+			<input type="password" placeholder="请输入验证码">
+			<img src="images/vcode.jpg" alt="">
+		</div>
+		<button class="login">确认修改</button>
+	</form>
+</div>
+</body>
+</html>

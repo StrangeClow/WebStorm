@@ -1,0 +1,128 @@
+header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
+    max-width: 72rem;
+    z-index: 999;
+}
+header .wrapper {
+    padding: 1rem 1.6rem;
+    overflow: hidden;
+}
+header .header-l {
+    float: left;
+}
+header .header-r {
+    float: right;
+}
+header .wrapper i {
+    color: #fff;
+}
+header .wrapper .header-c {
+    width: 100%;
+    text-align: center;
+    line-height: 2.8rem;
+}
+header .wrapper .header-c span {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+/*主题内容*/
+.container {
+    position: relative;
+    width: 100%;
+}
+.con-wrapper {
+    position: relative;
+    margin: 8rem 1.6rem 0 1.6rem ;
+}
+.zoom-item {
+    position: relative;
+    margin-bottom: 3rem;
+}
+.zoom-item .zoom-header {
+    overflow: hidden;
+}
+.zoom-item .zoom-header .l {
+    float: left;
+}
+.zoom-item .zoom-header .l .user-logo{
+    float: left;
+    width: 4rem;
+    height: 4rem;
+
+}
+.zoom-item .zoom-header .l .user-logo img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.zoom-item .zoom-header .l .user-info{
+    float: left;
+    padding-left: 2rem;
+}
+.zoom-item .zoom-header .l .user-info h6{
+    color: #ff5656;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+.zoom-item .zoom-header .r {
+    float: right;
+}
+.zoom-item .zoom-header .r i{
+
+}
+.zoom-item .zoom-header .r i span{
+  padding-left: 1rem;
+}
+
+.zoom-content {
+    position: relative;
+    margin: 1rem 0;
+}
+.zoom-content .zoom-img img {
+    width: 100%;
+    height: auto;
+}
+.zoom-comment {
+
+}
+.zoom-comment .comment-star {
+    line-height: 5rem;
+}
+.zoom-comment .comment-star p {
+
+}
+.zoom-comment .comment-star i {
+  color: rgba(197,32,30,0.94);
+}
+.comment-theme {
+    overflow: hidden;
+    padding: 2rem 0;
+}
+.comment-theme .comment-logo{
+    float: left;
+    width: 7%;
+}
+.comment-theme .comment-logo img{
+   width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.comment-theme .comment-p{
+    float: left;
+    width: 93%;
+}
+.comment-p h6 {
+    font-size: 1.4rem;
+    color: crimson;
+    padding-left: 1rem;
+}
+.comment-p p {
+    font-size: 1.3rem;
+    color: #a1a1a1;
+    padding-left: 1rem;
+}

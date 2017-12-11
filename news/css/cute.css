@@ -1,0 +1,56 @@
+header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
+    max-width: 72rem;
+    z-index: 999;
+}
+header .wrapper {
+    padding: 1rem 1.6rem;
+    overflow: hidden;
+}
+header .header-l {
+    float: left;
+}
+header .header-r {
+    float: right;
+}
+header .wrapper i {
+    color: #fff;
+}
+header .wrapper .header-c {
+    width: 100%;
+    text-align: center;
+    line-height: 2.8rem;
+}
+header .wrapper .header-c span {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+.con-wrapper {
+    position: relative;
+    margin: 8rem 1rem 0 1rem ;
+}
+.news {
+    margin: 2rem 1rem;
+}
+.container .con-wrapper .content .img-item {
+    padding: 1rem 0;
+}
+.container .con-wrapper .content .img-item a img{
+    width: 100%;
+    height: auto;
+}
+
+/*主题内容*/
+.con-wrapper .title h1 {
+    font-size: 1.8rem;
+    color: #222;
+}

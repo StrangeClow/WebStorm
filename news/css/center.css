@@ -1,0 +1,149 @@
+header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
+    z-index: 999;
+}
+header .wrapper {
+   padding: 1rem 1.6rem;
+    overflow: hidden;
+}
+header .header-l {
+    float: left;
+}
+header .header-r {
+    float: right;
+}
+header .wrapper i {
+    color: #fff;
+}
+header .wrapper .header-c {
+width: 100%;
+    text-align: center;
+   line-height: 2.8rem;
+ }
+header .wrapper .header-c span {
+ color: #fff;
+    font-size: 1.6rem;
+}
+
+
+.container {
+
+}
+/*user*/
+.user {
+    position: relative;
+    border-bottom: 1px solid #aaaaaa;
+}
+.user .wrapper {
+    text-align: center;
+    padding-top: 9rem;
+}
+.user .wrapper .user-logo {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    display: inline-block;
+}
+.user .user-logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+.intro {
+    padding: 1.5rem 2rem;
+}
+.intro .name span{
+font-size: 1.8rem;
+}
+.intro .country {
+padding-top: .5rem;
+}
+.intro .country span{
+  color: #aaaaaa;
+}
+.intro .info {
+    padding: 3rem 2rem;
+}
+.intro .info p {
+    color: #aaaaaa;
+}
+.topics {
+    margin-bottom: 2rem;
+    position: relative;
+
+}
+.topics ul {
+    overflow: hidden;
+}
+.topics ul li {
+    float: left;
+    width: calc(100% / 3);
+}
+.topics ul li a p:first-child {
+    color: #000;
+}
+.topics ul li a p:last-child {
+    color: #aaaaaa;
+}
+
+/*新闻列表*/
+.center-news {
+    position: relative;
+    margin-bottom: 3rem;
+}
+.center-news .center-news-wrapper {
+    overflow: hidden;
+    margin: 0 1rem;
+}
+.center-news-item {
+    border-bottom: 1px dashed #999999;
+    padding: 2rem 0;
+    overflow: hidden;
+}
+.center-news-item .l {
+    float: left;
+    width: 75%;
+}
+.center-news-item .r {
+    float: right;
+    width: 25%;
+}
+.center-news-item .r img {
+  width: 100%;
+    height: auto;
+}
+.center-news-item .content {
+    padding-top: 2rem;
+}
+.center-news-item .content p {
+    color: #757575;
+}
+/*第四条新闻*/
+.center-news-item .title {
+    padding-bottom: 1rem;
+}
+.img-item {
+    position: relative;
+}
+.img-item ul {
+    overflow: hidden;
+}
+.img-item ul li {
+    float: left;
+    width: calc(100% / 3 - .6rem);
+}
+.img-item ul li:nth-of-type(1) {
+    padding-right: .6rem;
+}
+.img-item ul li:nth-of-type(2) {
+    padding: 0 .3rem;
+}
+.img-item ul li:nth-of-type(3) {
+    padding-left: .6rem;
+}
+.img-item ul li img {
+    width: 100%;
+    height:auto;
+}

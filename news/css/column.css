@@ -1,0 +1,170 @@
+header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
+    max-width: 72rem;
+    z-index: 999;
+}
+header .wrapper {
+    padding: 1rem 1.6rem;
+    overflow: hidden;
+}
+header .header-l {
+    float: left;
+}
+header .header-r {
+    float: right;
+}
+header .wrapper i {
+    color: #fff;
+}
+header .wrapper .header-c {
+    width: 100%;
+    text-align: center;
+    line-height: 2.8rem;
+}
+header .wrapper .header-c span {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+.con-wrapper {
+    position: relative;
+    margin: 8rem 1.6rem 0 1.6rem ;
+}
+.mine {
+    border-bottom: 1px solid #f1f1f1;
+}
+.mine-header {
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+.mine-header .mine-logo {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    float: left;
+}
+.mine-header .mine-logo a {
+    display: block;
+}
+.mine-header .mine-logo a img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.mine-header .mine-info {
+    float: left;
+    padding-left: 2rem;
+    height: 4rem;
+    line-height: 2rem;
+}
+.mine-header .mine-info h6.first{
+   font-size: 1.5rem;
+    color: #ff5656;
+}
+.mine-header .mine-info h6.last{
+    font-size: 1rem;
+    color: #a1a1a1;
+}
+.mine-content {
+    position: relative;
+}
+.mine-content .mine-bg {
+
+}
+.mine-content .mine-bg a img {
+    width: 100%;
+    height: auto;
+}
+.mine-content .mine-p {
+    padding: 1rem 0;
+}
+.mine-p p {
+    color: #a1a1a1;
+    line-height: 2.2rem;
+}
+.mine-star {
+    padding: 1rem 0 2rem 0;
+    overflow: hidden;
+}
+.mine-star .l {
+    float: left;
+}
+.mine-star .l ul {
+    overflow: hidden;
+    line-height: 3rem;
+}
+.mine-star .l ul li {
+    float: left;
+    margin-right: 1.6rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.mine-star .l ul li a {
+    display: block;
+}
+.mine-star .l ul li a img {
+    width: 100%;
+    height:auto;
+    border-radius: 50%;
+}
+.mine-star .l ul li:nth-of-type(4) {
+    background: #ff5656;
+    border-radius: 5rem;
+    padding:0 1rem;
+  line-height: 2.5rem;
+}
+.mine-star .l ul li:nth-of-type(4) span {
+   text-align: center;
+    margin: 0 auto;
+}
+.mine-star .l ul li:nth-of-type(5) {
+    line-height: 2.5rem;
+    width: 4rem;
+}
+.mine-star .r {
+    float: right;
+    line-height: 3rem;
+}
+
+/*评论列表*/
+.comment-item {
+    overflow: hidden;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.comment-item .l {
+    float: left;
+    width: 15%;
+}
+.comment-item .l a {
+    width: 4rem;
+    height: 4rem;
+    display: block;
+}.comment-item .l a img {
+     width: 100%;
+    height: auto;
+    border-radius: 50%;
+ }
+
+.comment-item .r {
+    float: left;
+    width:85% ;
+}
+.comment-item .r .comment-user {
+    font-size: 1.6rem;
+    color: #222;
+    padding-bottom: 1rem;
+}
+.comment-item .r p.comment-content {
+    color: #a1a1a1;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}

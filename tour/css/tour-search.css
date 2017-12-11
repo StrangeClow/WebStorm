@@ -1,0 +1,211 @@
+html {
+    font-size: 62.5%;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+* {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+body {
+    font-size: 1.4rem;
+    background: url("../imgs/bg.gif") repeat;
+}
+.frame {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 100%;
+    top:  0px;
+    left: 0px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #FF5400;
+    font-size: 14px;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    z-index: 4;
+    border-bottom: 1px solid #cccccc;
+}
+header .header-left {
+    float: left;
+}
+header .header-left a {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    left: 8px;
+    z-index: 3;
+    text-decoration: none;
+    color: #ffffff;
+}
+header .header-left a img {
+    max-width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+header .header-middle {
+    display: inline-block;
+}
+header .header-middle a {
+    color: orangered;
+}
+header .header-right {
+    float: right;
+    position: relative;
+    right: 1.2rem;
+}
+header .header-right a {
+    color: orangered;
+}
+header .header-right a i {
+    font-size: 22px;
+}
+
+/*container begin*/
+.container {
+    position: relative;
+    top:-1rem;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+.con {
+    position: relative;
+    margin: 2rem 1rem 1rem 1rem;
+}
+.search {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid gainsboro;
+}
+.search input {
+    width: 80%;
+    float: left;
+    height: 3.6rem;
+    text-indent: 2rem;
+    font-size: 1.6rem;
+    border: none;
+}
+.search button {
+    width: calc(20% - 2px);
+    float: right;
+    border: none;
+    background: #00a1e9;
+    height: 3.6rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.tour-place {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.tour-place .place-title {
+    height: 3rem;
+    position: relative;
+    line-height: 3rem;
+    border: 1px solid #6C6C6C;
+}
+.place-title h3 {
+    color: crimson;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.place-title i {
+    color: #00a1e9;
+}
+.item-wrapper {
+    border: 1px solid #6C6C6C;
+    overflow: hidden;
+    margin-top: .5rem;
+    padding: .4rem;
+}
+.list-item {
+  position: relative;
+    width: calc((100% / 3) - .6rem);
+    float: left;
+    height: auto;
+    margin: 0 .3rem;
+}
+.list-item .item-img {
+    width: 100%;
+   height: 5.8rem;
+    position: relative;
+
+}
+.list-item .item-img img {
+    width: 100%;
+    position: relative;
+    height: 5.8rem;
+}
+.item-info {
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+.item-info .info-bg {
+    background: #000000;
+    opacity: .5;
+    z-index: 1;
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    bottom: 0;
+    display:block;
+}
+.item-info .info-place {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+.item-info .info-place span {
+    color: #FF5D6E;
+}
+.tour-star {
+
+}
+.tour-star ul li {
+    float: left;
+    width: calc((100% / 4) - .8rem - 2px);
+    background: #9f94;
+    text-align: center;
+    margin: .1rem .4rem;
+    line-height: 3rem;
+    height: 3rem;
+    border: 1px solid #f9fafb;
+}
+.tour-star ul li a {
+    color: #00a1e9;
+}
+/*下拉加载更多*/
+.more {
+    background: rgba(45,112,197,0.95);
+    text-align: center;
+    margin: 5rem 0;
+}
+.more a {
+    height: 4rem;
+    line-height: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+}

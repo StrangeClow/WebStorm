@@ -1,0 +1,78 @@
+header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
+    max-width: 72rem;
+    z-index: 999;
+}
+header .wrapper {
+    padding: 1rem 1.6rem;
+    overflow: hidden;
+}
+header .header-l {
+    float: left;
+}
+header .header-r {
+    float: right;
+}
+header .wrapper i {
+    color: #fff;
+}
+header .wrapper .header-c {
+    width: 100%;
+    text-align: center;
+    line-height: 2.8rem;
+}
+header .wrapper .header-c span {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+.con-wrapper {
+    position: relative;
+    margin: 8rem 1rem 0 1rem ;
+}
+
+/*活动列表*/
+.activity-item {
+    position: relative;
+    padding: 1.6rem 0;
+    border-bottom: 1px solid #a1a1a1;
+}
+.activity-item .theme {
+    color: #222;
+   width: 100%;
+    font-size: 2rem;
+}
+.activity-item .location, .activity-item .theme, .activity-item p {
+    padding: 1rem 0;
+}
+.activity-item .location {
+font-size: 1.6rem;
+}
+.activity-item .location i{
+    margin-right: 1rem;
+}
+.activity-item p {
+
+}
+.activity-item p span{
+    border-radius: .5rem;
+    text-align: center;
+    padding: .2rem .4rem;
+}
+.activity-item p .before {
+    background: #00a1e9;
+}
+.activity-item p .begin {
+    background: orange;
+}.activity-item p .end {
+     background: #a1a1a1;
+ }
+

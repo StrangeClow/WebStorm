@@ -1,0 +1,729 @@
+body {
+    font-family: "微软雅黑 Light";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.menu {
+    width: 100%;
+    height: 46px;
+    background: #333333;
+}
+.menu .menu-wrapper {
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+    z-index:10;
+}
+.menu-wrapper .menu-left {
+    position: absolute;
+    top:0;
+    width: 220px;
+}
+.menu-wrapper .menu-left ul {
+   background: #fff;
+}
+.menu-wrapper .menu-left ul li.first {
+    background: #00bdd5;
+    line-height: 22px;
+}
+.menu-wrapper .menu-left ul li a.first {
+    color: #fff;
+}
+.menu-wrapper .menu-left ul li {
+   padding: 12px 10px 13px 0;
+    border-bottom: 1px solid #aaaaaa;
+}
+.menu-wrapper .menu-left ul li .main-item a {
+    color: #111;
+    padding-left: 16px;
+    display: block;
+    font-size: 14px;
+}
+.menu-wrapper .menu-left ul li a i{
+    padding:4px;
+    border: 1px solid #00bdd5;
+    border-radius: 50%;
+    margin-right: 6px;
+    color: #00bdd5;
+}
+.menu-wrapper .menu-center {
+    position: relative;
+    left: 250px;
+    line-height: 46px;
+    display: inline-block;
+}
+.menu-wrapper .menu-center ul {
+    overflow: hidden;
+}
+.menu-wrapper .menu-center ul li {
+    float: left;
+    padding: 0 30px;
+}
+.menu-wrapper .menu-center ul li:hover {
+    background: #000;
+}
+.menu-wrapper .menu-center ul li a {
+    color: #fff;
+    font-size: 15px;
+}
+.menu-wrapper .menu-right {
+    line-height: 46px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    text-align: center;
+}
+.menu-wrapper .menu-right .right-mine {
+    background-color:#f64646;
+}
+.menu-wrapper .menu-right a {
+    color: #fff;
+    font-size: 15px;
+
+}
+.menu-wrapper .menu-right a i {
+    padding-right: 10px;
+}
+.menu-right .right-info  {
+    display: block;
+    width: 180px;
+    height: 450px;
+    line-height: 1;
+}
+.menu-right .right-info a:first-child {
+    display: block;
+    border-bottom: 1px dotted #ff5656;
+}
+.menu-right .right-info a:first-child img {
+    height: 224px;
+}
+.menu-right .right-info a:last-child {
+
+    display: block;
+
+}
+.menu-right .right-info a:last-child img {
+    height: 224px;
+}
+
+/*商品详细分类*/
+.menu-wrapper .detail-item {
+    position: absolute;
+    width: 820px;
+    left: 221px;
+    top: 48px;
+    /*margin-top: -1px;*/
+    bottom: 0px;
+    overflow: hidden;
+    background: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    z-index: 53;
+    cursor: default;
+    display: none;
+    height: 449px;
+}
+
+.menu-wrapper .menu-left ul li:hover .detail-item {
+    display: block;
+}
+
+
+.menu-wrapper .detail-item .detail-item-left {
+    float: left;
+}
+.menu-wrapper .detail-item .detail-item-left-top {
+    margin: 10px 20px;
+}
+.menu-wrapper .detail-item .detail-item-left-top a {
+    display: inline-block;
+    color: #fff;
+    background: #ccc;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 4px;
+    padding: 0 8px;
+    border-radius: 3px;
+}
+.menu-wrapper .detail-item .detail-item-left-title  {
+    margin: 25px 30px 6px 20px;
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    height: 25px;
+}
+.menu-wrapper .detail-item .detail-item-left-title i {
+    display: inline-block;
+    width: 48px;
+    height: 40px;
+    position: absolute;
+    top: -15px;
+    left: 8px;
+}
+.menu-wrapper .detail-item .detail-item-left-title a:nth-of-type(1) {
+    margin-left: 70px;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+.menu-wrapper .detail-item .detail-item-left-title a:last-child {
+    font-size: 14px;
+    float: right;
+}
+
+.detail-item-left-product dl {
+    margin-left: 20px;
+    width: 563px;
+}
+.detail-item-left-product dl dt {
+    margin-right: 15px;
+    width: 60px;
+    height: 26px;
+    overflow: hidden;
+}
+
+.detail-item-left-product dl dd {
+    width: 80%;
+}
+
+.detail-item-left-product dl dt, .detail-item-left-product dl dd {
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: top;
+}
+.detail-item-left-product dl:last-child dd a {
+    border-right: 1px solid #7e7e7e;
+}
+
+.detail-item-left-product dl dd a{
+    padding: 0 5px;
+    color: #7e7e7e;
+    font-size: 12px;
+}
+
+.detail-item-left-product dl dt a.category-title {
+    color: #00bdd5;
+    font-size: 14px;
+}
+.menu-wrapper .menu-left .detail-item .detail-item-left-title a:first-child {
+
+}
+.detail-item-left-title a:last-child {
+   float: right;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.menu-wrapper .detail-item .detail-item-right {
+    width: 215px;
+    height: 451px;
+    background: #f9f9f9;
+    overflow: hidden;
+    padding-top: 10px;
+    line-height: 0;
+    float: left;
+}
+.menu-wrapper .detail-item .detail-item-right a img {
+    width: 215px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/*轮播图*/
+.ufenqi-banner {
+    width:100%;
+    height:450px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-list,.banner-list li{
+    width: 100%; height: 450px;
+}
+.banner-list li{ position: absolute;}
+.ufenqi-banner .bx-wrapper{
+    margin: 0;
+}
+.ufenqi-banner .bx-wrapper .bx-viewport{
+    border:0;
+}
+.ufenqi-banner .bx-wrapper .bx-pager,.ufenqi-banner .bx-wrapper .bx-controls-auto{
+    bottom: 15px;
+    z-index: 51;
+}
+ol.slider {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.slider li{
+    overflow:hidden;
+    display:inline-block;
+    margin: 0 4px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    /*left:45%;*/
+    width: 8px;
+    height: 8px;
+}
+.active{
+    background: #59d1e0;
+    border:2px solid #00bdd5;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;}
+.slider li:hover{
+    background: rgba(255,255,255,.5);
+    border:2px solid #00bdd5;
+}
+.ufenqi-banner .bx-wrapper a{
+    display: block;
+}
+
+.ufenqi-banner .bx-wrapper img{
+    width: 1240px;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+
+.goods {
+    position: relative;
+    width: 100%;
+}
+.goods-wrapper {
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+}
+.goods-wrapper .step {
+    height: 110px;
+    background: #f3f3f3;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.goods-wrapper .step ul {
+    overflow: hidden;
+
+}
+.goods-wrapper .step ul li {
+    float: left;
+    width: calc((100% / 4) - 1px);
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+    margin: 20px auto 0 auto;
+
+}
+.goods-wrapper .step ul li a {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.goods-wrapper .step ul li a p {
+    color: #6C6C6C;
+}
+.goods-wrapper .step ul li a p.b{
+   font-size: 15px;
+    font-weight: 700;
+    padding: 4px ;
+}
+.goods-wrapper .step ul li a p.s{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 4px ;
+}
+.goods-wrapper .step ul li a .step-info {
+    float: right;
+}
+.goods-wrapper .step ul li a .step-bg {
+    display: block;
+    height: 54px;
+    float: left;
+    overflow: hidden;
+    background: url("../imgs/u-icon.png") no-repeat center center;
+}
+.goods-wrapper .step ul li:first-child a .step-bg {
+    background-position: -82px 0;
+    width: 45px;
+}
+.goods-wrapper .step ul li:nth-of-type(2) a .step-bg {
+    background-position: -126px 0;
+    width: 45px;
+}
+.goods-wrapper .step ul li:nth-of-type(3) a .step-bg {
+    background-position: -172px 0;
+    width: 45px;
+}
+.goods-wrapper .step ul li:nth-of-type(4) a .step-bg {
+    background-position: -216px 0;
+    width: 45px;
+}
+
+
+.goods-wrapper .goods-star {
+    margin: 40px auto ;
+    position: relative;
+    overflow: hidden;
+}
+.goods-wrapper .goods-star .goods-star-title {
+ margin: 0 0 14px 0;
+}
+.goods-star .goods-star-title a {
+    color: #fff;
+    display: inline-block;
+    background:#fd7000;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+.goods-star-list {
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+.goods-star-list a {
+    display: inline-block;
+}
+.goods-star-list .left {
+    float: left;
+}
+.goods-star-list .left a {
+    display: inline-block;
+}
+.goods-star-list .left a img {
+    width: 295px;
+    height: 400px;
+}
+.goods-star-list .right {
+    height: 400px;
+    overflow: hidden;
+}
+.goods-star-list .right {
+    float: left;
+}
+.goods-star-list .right .right-top {
+    margin-left: 16px;
+}
+.goods-star-list .right .right-top a:last-child{
+    margin-left: 16px;
+}
+.goods-star-list .right .right-bottom {
+    margin-top: 16px;
+}
+.goods-star-list .right .right-bottom a{
+   margin-left: 16px;
+}
+
+/*新品发布*/
+
+.new-sell {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.new-sell .new-sell-title {
+overflow: hidden;
+}
+.new-sell .new-sell-title a.left {
+    float: left;
+    display: inline-block;
+    padding: 3px 6px;
+    color: #fff;
+    background: orange;
+    border-radius: 10px;
+}
+.new-sell .new-sell-title a.right {
+    float: right;
+
+}
+.new-sell .new-sell-title a.right i {
+    padding: 6px 20px;
+    color: #fff;
+    background: orange;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.new-sell-list-con {
+   width: 1260px;
+    position: relative;
+    overflow: hidden;
+    /*margin-left: -10px;*/
+    margin: 20px 0 20px -10px;
+}
+.new-sell .new-sell-list {
+    float: left;
+    width: calc((100% / 4) - 22px);
+    /*background: rgba(17,197,97,0.42);*/
+    border: 1px solid #aaaaaa;
+   margin: 0 10px;
+
+}
+.new-sell .new-sell-list:hover {
+    border: 1px solid #00bdd5;
+}
+/*手机通讯*/
+
+.phone-sell {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.phone-sell .phone-sell-title {
+    overflow: hidden;
+    padding: 4px 0;
+}
+.phone-sell .phone-sell-title p.left {
+    float: left;
+    display: inline-block;
+    font-size: 15px;
+
+}
+.phone-sell .phone-sell-title p.left span {
+    color: #fff;
+    background-color: #00bdd5;
+    padding: 3px 12px;
+    border-radius: 6px;
+}
+.desktop .phone-sell-title p.left span {
+    background-color: #40af36;
+}
+.camera .phone-sell-title p.left span {
+    background-color: #7a66ab;
+}
+.watch .phone-sell-title p.left span {
+    background-color: #e94543;
+}
+.health .phone-sell-title p.left span {
+    background-color: #4c8cca;
+}
+.expensive .phone-sell-title p.left span {
+    background-color: #e662cc;
+}
+.sport .phone-sell-title p.left span {
+    background-color: #fd7000;
+}
+.gift .phone-sell-title p.left span {
+    background-color: #ffb000;
+}
+.goods-wrapper img {
+    width: 100%;
+    height: auto;
+}
+.phone-sell .phone-sell-title p.left a {
+    color: #999;
+    border: 1px solid #eaeaea;
+    padding: 3px 8px;
+    border-radius: 10px;
+
+}
+.phone-sell .phone-sell-title p.right {
+    float: right;
+
+}
+
+.phone-sell-list-con {
+    width: 1260px;
+    position: relative;
+    overflow: hidden;
+    /*margin-left: -10px;*/
+    margin: 20px 0 20px -10px;
+}
+.phone-sell .phone-sell-list {
+    float: left;
+    width: calc((100% / 4) - 22px);
+    /*background: rgba(17,197,97,0.42);*/
+    border: 1px solid #ff5656;
+    margin: 0 10px;
+
+}
+.phone-sell .phone-sell-list:hover {
+    border: 1px solid #00bdd5;
+}
+
+.phone-sell-list-wrapper {
+    padding: 26px;
+}
+.phone-sell-list-wrapper p {
+    padding: 4px 0;
+}
+.phone-sell-list-wrapper .list-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.phone-sell-list-wrapper .fenqi {
+    font-size: 13px;
+}
+.phone-sell-list-wrapper .fenqi span{
+    font-size: 20px;
+    color: crimson;
+    font-weight: 700;
+}
+
+.phone-sell-list-wrapper .fenqi a{
+    background: #ff5656;
+    color: #fff;
+}
+.phone-sell-list-wrapper .fenqi a:before{
+    content: " .";
+    width: 20px;
+    height: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+    text-align: center;
+}
+.phone-sell-list-wrapper .shoujia{
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.phone-sell-list-wrapper .shoujia span:first-child{
+    float: left;
+}
+.phone-sell-list-wrapper .shoujia span:last-child{
+    text-decoration: line-through;
+    float: right;
+}
+
+/*.new-sell .new-sell-list:nth-of-type(1) {
+    margin-right: 10px;
+}
+.new-sell .new-sell-list:nth-of-type(2) {
+    margin-right: 10px;
+}
+.new-sell .new-sell-list:nth-of-type(3) {
+    margin-right: 10px;
+}
+.new-sell .new-sell-list:nth-of-type(4) {
+    margin-right: 10px;
+}*/
+
+.new-sell-list-wrapper {
+   padding: 26px;
+}
+.new-sell-list-wrapper p {
+    padding: 4px 0;
+}
+.new-sell-list-wrapper .list-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.new-sell-list-wrapper .fenqi {
+   font-size: 13px;
+}
+.new-sell-list-wrapper .fenqi span{
+  font-size: 20px;
+    color: crimson;
+    font-weight: 700;
+}
+
+.new-sell-list-wrapper .fenqi a{
+  background: #ff5656;
+    color: #fff;
+}
+.new-sell-list-wrapper .fenqi a:before{
+   content: " .";
+    width: 20px;
+    height: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+    text-align: center;
+}
+.new-sell-list-wrapper .shoujia{
+  font-size: 14px;
+    color: #6C6C6C;
+}
+.new-sell-list-wrapper .shoujia span:first-child{
+    float: left;
+}
+.new-sell-list-wrapper .shoujia span:last-child{
+text-decoration: line-through;
+    float: right;
+}
+
+
+
+/*合作伙伴*/
+.partner {
+    position: relative;
+    margin: 20px 0;
+    background: #f0f0f0;
+    padding: 10px 20px;
+}
+.partner .partner-title {
+margin: 10px 0;
+}
+.partner .partner-title p {
+
+}
+.partner .partner-title p span {
+    font-weight: 700;
+    font-size: 18px;
+}
+.partner-list {
+}
+.partner-list ul {
+    overflow: hidden;
+}
+.partner-list ul li {
+    float: left;
+    width: calc((100% / 10));
+    padding-bottom: 2px;
+
+}
+.partner-list ul li a {
+   width: 114px;
+}
+.partner-list ul li a img {
+   width: 114px;
+}
+
+
+/*友情链接*/
+
+.links {
+    position: relative;
+    margin: 20px 0;
+    background: #f0f0f0;
+    padding: 10px 20px;
+}
+.links .links-title {
+    margin: 10px 0;
+}
+.links .links-title p {
+
+}
+.links .links-title p span {
+    font-weight: 700;
+
+}
+.links .links-list {
+
+}
+.links .links-list ul{
+    overflow: hidden;
+}
+.links .links-list ul li{
+    float: left;
+    padding: 10px 6px 16px 6px;
+}
+.links .links-list ul li a{
+  color: #333333;
+    font-size: 13px;
+}
+.links .links-list ul li a:hover{
+   color: #00bdd5;
+}

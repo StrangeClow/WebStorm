@@ -1,0 +1,91 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 16px;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*交易记录*/
+section {
+    width: 100%;
+    position: relative;
+    background: #f5f5f5;
+}
+section nav {
+
+}
+section nav ul {
+    text-align: center;
+    overflow: hidden;
+}
+section nav ul li {
+    float: left;
+    width: calc(100% / 3);
+    line-height: 4rem;
+}
+section nav ul li a {
+    color: #333333;
+}
+nav ul li a:active {
+    color: red;
+}
+section nav ul li a.active {
+    color: red;
+    padding-bottom: .6rem;
+    border-bottom: 2px solid red;
+}
+.record-con {
+
+}
+.record-con .record-item {
+    margin-bottom: 1.2rem;
+    background: #fff;
+    padding: 1rem;
+}
+.record-item p {
+    line-height: 2;
+}
+.record-item p.money {
+    font-size: 16px;
+    font-weight: 500;
+}
+.record-item p.code {
+    font-size: 14px;
+    font-weight: 300;
+}
+.record-item p.time {
+    color: #999;
+}
+.record-item p.add {
+    color: #555;
+}
+.record-item:nth-of-type(2) p.time {
+    border-bottom: 1px solid #e5e5e5;
+}
+.record-item:nth-of-type(4) p.time {
+    border-bottom: 1px solid #e5e5e5;
+}

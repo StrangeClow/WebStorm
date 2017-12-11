@@ -1,0 +1,167 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: fixed;
+    background: #f5f5f5;
+    z-index: 10;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 16px;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*交易记录*/
+section {
+    width: 100%;
+    position: relative;
+    padding-top: 4rem;
+    background-color: #f5f5f5;
+}
+
+.order-wrapper {
+
+}
+.order-user-info {
+
+}
+.order-user-info .order-user-info-wrapper {
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.order-user-info-wrapper .address, .order-user-info-wrapper .user-info {
+    float: left;
+}
+.order-user-info-wrapper .address i {
+    color: #0bb20c;
+}
+
+.order-user-info-wrapper .right {
+    float: right;
+}
+
+.order-user-info-wrapper .user-info {
+    padding-left: 2rem;
+    background-color: #f5f5f5;
+}
+.order-user-info-wrapper .user-info p:first-child {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.order-wrapper p {
+    padding: .8rem 1rem;
+    overflow: hidden;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+
+.order-wrapper a {
+    overflow: hidden;
+    display: inline-block;
+}
+.order-wrapper p span:first-child {
+    float: left;
+}
+.order-wrapper p span:last-child {
+    float: right;
+}
+
+section .order-wrapper {
+    position: relative;
+    text-align: center;
+}
+.order-wrapper p a {
+    color: #555;
+}
+.order-wrapper p a span:last-child i{
+    float: right;
+}
+
+
+.order-wrapper button {
+    height: 4rem;
+    line-height: 4rem;
+    width: 90%;
+    background-color: #0bb20c;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    padding: 0;
+}
+.order-wrapper .order-item {
+    position: relative;
+    background: #fff;
+    margin-bottom: 1.4rem;
+    padding:1rem;
+}
+
+.order-item .order-product {
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #eeee;
+    padding: 1.6rem 0;
+}
+.order-item .order-product .order-product-l {
+    float: left;
+    width: 8.4rem;
+    height:8.4rem;
+    margin-right: 1rem;
+}
+.order-product .order-product-l img {
+    width: 100%;
+    height: auto;
+}
+.order-item .order-product .order-product-r {
+    float:right;
+    width: 76%;
+}
+.order-product .order-product-r a {
+    color: #333;
+    font-size: 13px;
+}
+.order-product .order-product-r p {
+    padding: .4rem 0;
+    color: #6C6C6C;
+}
+.order-product-bottom {
+    overflow: hidden;
+}
+.order-product-bottom p:first-child {
+    float: left;
+}
+.order-product-r .order-product-bottom p {
+    padding: .2rem 0;
+}
+.order-product-bottom p:first-child span {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(197,13,20,0.81);
+}
+.order-product-bottom p:last-child {
+    float: right;
+    color: #111;
+    font-size: 12px;
+}

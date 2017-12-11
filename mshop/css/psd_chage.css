@@ -1,0 +1,91 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    border-bottom: 1px solid #a1a1a1;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 1.4rem;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-box {
+    background: #f5f5f5;
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 1rem;
+}
+.login-box form {
+    position: relative;
+    text-align: center;
+}
+.login-box form div {
+    border: 1px solid #d9d9d9;
+    margin: 1rem 0;
+    padding: .4rem 0;
+    overflow: hidden;
+}
+.login-box form div label {
+    color: #333333;
+    float: left;
+    line-height: 3.2rem;
+    width: 8rem;
+}
+.login-box form div input {
+    color: #333333;
+    border: none;
+    background: #F5F5F5;
+    text-indent: 1rem;
+    float: left;
+    line-height: 3.2rem;
+    width: 20rem;
+}
+.login-box form .phone button {
+    height: 3.2rem;
+    border: none;
+    color: #00bdd5;
+    float: right;
+    border-left: 1px solid #d9d9d9;
+}
+.code {
+    overflow: hidden;
+}
+.code img {
+    float: right;
+    width: 8.5rem;
+    height: 3.2rem;
+}
+
+.login-box .login {
+    background-color: green;
+    color: #ffff;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    border: none;
+    font-size: 1.4rem;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 0 -1rem;
+}

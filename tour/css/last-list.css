@@ -1,0 +1,124 @@
+html {
+    font-size: 62.5%;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+* {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+body {
+    font-size: 1.4rem;
+    background: url("../imgs/bg.gif") repeat;
+}
+.frame {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 100%;
+    top:  0px;
+    left: 0px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #FF5400;
+    font-size: 14px;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    z-index: 4;
+    border-bottom: 1px solid #cccccc;
+}
+header .header-left {
+    float: left;
+}
+header .header-left a {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    left: 8px;
+    z-index: 3;
+    text-decoration: none;
+    color: #ffffff;
+}
+header .header-left a img {
+    max-width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+header .header-middle {
+    display: inline-block;
+}
+header .header-middle a {
+    color: orangered;
+}
+header .header-right {
+    float: right;
+    position: relative;
+    right: 1.2rem;
+}
+header .header-right a {
+    color: orangered;
+}
+header .header-right a i {
+    font-size: 22px;
+}
+
+/*container begin*/
+.container {
+    position: relative;
+    top:-1rem;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+.con {
+    position: relative;
+    margin: 2rem 1rem 1rem 1rem;
+    max-width: 72rem;
+}
+.con-img {
+    width: 100%;
+    position: relative;
+    height: auto;
+    cursor: pointer;
+}
+.con div {
+    text-align: center;
+}
+.con-img img {
+    width: 100%;
+}
+.more {
+    position: relative;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+}
+.more a {
+    color: #000;
+}
+.theme {
+    margin-top: 5rem;
+    height: 4rem;
+    line-height: 4rem;
+    background: #fff;
+}
+.theme a {
+    color: #00a1e9;
+    font-size: 1.6rem;
+}

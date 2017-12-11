@@ -1,0 +1,47 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    border-bottom: 1px solid #d9d9d9;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 1.4rem;
+}
+.header-wrapper .header-title {
+    color: #222;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height:auto;
+    background-color: #f5f5f5;
+}
+.container .container-wrapper {
+    padding: 2rem 1.2rem;
+}
+.container-wrapper p {
+    font-size: 1.3rem;
+    color: #333;
+}
+.container br {
+    margin: .6rem 0;
+}

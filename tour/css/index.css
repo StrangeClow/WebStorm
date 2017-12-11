@@ -1,0 +1,202 @@
+html {
+    font-size: 62.5%;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+* {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+body {
+    background: url("../imgs/bg.gif") repeat;
+}
+.frame {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 100%;
+    top:  0px;
+    left: 0px;
+}
+header {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #FF5400;
+    font-size: 14px;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    z-index: 4;
+    border-bottom: 1px solid #cccccc;
+}
+header .header-left {
+    float: left;
+}
+header .header-left a {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    left: 8px;
+    z-index: 3;
+    text-decoration: none;
+    color: #ffffff;
+}
+header .header-left a img {
+    max-width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+header .header-middle {
+    display: inline-block;
+}
+header .header-middle a {
+    color: orangered;
+}
+header .header-right {
+    float: right;
+    position: relative;
+    right: 1.2rem;
+}
+header .header-right a {
+    color: orangered;
+}
+header .header-right a i {
+    font-size: 22px;
+}
+/*轮播图部分*/
+.swiper {
+    width: 100%;
+    max-width: 720px;
+}
+.swiper img {
+  width: 100%;
+}
+
+/*详细目录 item*/
+.main-item{
+margin: 0 0.5rem 0.5rem 0.5rem;
+    overflow: hidden;
+}
+.main-item ul {
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+.main-item ul li a.item-title {
+    /*display: inline-block;*/
+    position: relative;
+    top: 0;
+
+}
+.main-item ul li {
+    width:calc((100% / 3) - 0.6rem);
+    float: left;
+    margin: -1.5rem 0.3rem 0.3rem 0.3rem;
+    overflow: hidden;
+}
+
+.main-item ul li .item-detail {
+
+}
+.main-item ul li .item-detail a {
+    color: #000;
+    position: relative;
+    top:2rem;
+    left: 1rem;
+}
+.main-item ul li .item-detail img {
+  max-width: 100%;
+}
+.item-theme {
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 30rem;
+}
+.item-theme a {
+    color: orangered;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1rem;
+}
+
+.footer {
+    width: 100%;
+    height: 44px;
+    line-height:44px;
+    vertical-align: middle;
+    position: fixed;
+    bottom: 0;
+    background: #00a1e9;
+}
+.footer ul {
+    /*margin-left: -2px;*/
+}
+.footer ul li.first-menu {
+    text-align: center;
+    list-style: none;
+    float: left;
+    width: calc((100% / 3) - 1px);
+    border-top: 1px solid #6C6C6C;
+    border-right: 1px solid #6C6C6C;
+}
+.footer .last {
+    border-right: none;
+    text-align: center;
+    list-style: none;
+    float: left;
+    width: calc((100% / 3) - 1px);
+    border-top: 1px solid #6C6C6C;
+}
+.footer ul li i {
+    margin-right: 0.1rem;
+}
+.footer ul li a {
+    font-size: 16px;
+    color: #fff;
+}
+.footer ul div[class|=list-item] {
+    position: absolute;
+    bottom: 50px;
+    width: calc((100% / 3) - 40px);
+    margin: 0 20px;
+    border: 1px solid #999999;
+    background: #f9fafb;
+    display: block;
+}
+.footer ul li.active-li:active + div[class|=list-item]{
+    display: block;
+}
+.footer ul div[class|=list-item] ul {
+
+}
+.footer ul div[class|=list-item] ul li{
+    list-style: none;
+    float: none;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+}
+.footer ul div[class|=list-item] ul li.bottom-line{
+    border-bottom: 1px solid #aaaaaa;
+    width: 70px;
+    margin: 0 auto;
+}
+.footer ul div[class|=list-item] ul li a {
+    color: #454545;
+    font-size: 15px;
+
+}

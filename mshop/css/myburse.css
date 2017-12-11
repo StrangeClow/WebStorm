@@ -1,0 +1,71 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 16px;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*交易记录*/
+section {
+    width: 100%;
+    position: relative;
+    background: #f5f5f5;
+}
+section .money-info {
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 1rem 1.2rem;
+}
+section .money-info .info-title {
+    color: #999;
+    font-size: 13px;
+    line-height: 1.4;
+    padding-bottom: 2rem;
+}
+section .money-info .money-count {
+    font-weight: 600;
+    font-size: 16px;
+    padding: .8rem 0;
+}
+section .money-info .info-detail {
+    font-size: 13px;
+    color: #6C6C6C;
+    padding: .4rem 0 1rem 0;
+}
+section .money-info .info-count {
+    font-size: 13px;
+    color: #aaaaaa;
+    padding: 0 0 1rem 0;
+}
+section .money-info a {
+    display: block;
+    border-top: 1px solid #e3e3e3;
+    padding: 1rem 0;
+    line-height: 1.2;
+    color: #586c94;
+}

@@ -1,0 +1,87 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: fixed;
+    background: #f5f5f5;
+    z-index: 10;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 16px;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*交易记录*/
+section {
+    width: 100%;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #e3e3e3;
+}
+section .comment-title {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 1rem;
+    padding-left: 1.6rem;
+}
+section .comment-title  p {
+    font-size: 13px;
+}
+section .comment-title p i {
+    color: rgba(197,32,30,0.81);
+    margin: 0 .8rem;
+    font-size: 16px;
+}
+.comment-area {
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+.comment-area textarea {
+  width: 100%;
+    border: none;
+}
+.secret {
+
+}
+.secret button {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    padding: 1rem 0;
+}
+.secret button p {
+    float: left;
+    padding-left: 1.5rem;
+    line-height: 2.2rem;
+}
+.secret button p i {
+    color: #fff;
+    border-radius: 50%;
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: #09bb07;
+   line-height: 2.2rem;
+}
+.secret button p span {
+    padding-left: 1rem;
+}

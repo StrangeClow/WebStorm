@@ -1,0 +1,72 @@
+header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
+    max-width: 72rem;
+    z-index: 999;
+}
+header .wrapper {
+    padding: 1rem 1.6rem;
+    overflow: hidden;
+}
+header .header-l {
+    float: left;
+}
+header .header-r {
+    float: right;
+}
+header .wrapper i {
+    color: #fff;
+}
+header .wrapper .header-c {
+    width: 100%;
+    text-align: center;
+    line-height: 2.8rem;
+}
+header .wrapper .header-c span {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+.con-wrapper {
+    position: relative;
+    margin: 7rem 1.4rem 0 1.4rem ;
+}
+.video-list {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.video-list a {
+    display: inline-block;
+    position: relative;
+}
+.video-list a .video-bg img {
+    width: 100%;
+    height: auto;
+}
+.video-time {
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+}
+.video-time i {
+    padding: .2rem .4rem;
+    background: #fff;
+    border-radius: .5rem;
+    color: #6C6C6C;
+}
+.video-intro {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+}
+.video-intro p {
+    color: #fff;
+}

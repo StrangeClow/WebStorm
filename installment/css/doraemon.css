@@ -1,0 +1,59 @@
+.phone-logo .help {
+    position: absolute;
+    right: 600px;
+    top: 50px;
+}
+.phone-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+.phone-logo .help a {
+    color: #fff;
+    padding: 4px 8px;
+    display: inline-block;
+    border: 1px solid #fff;
+}
+.phone-logo .jihuo {
+    position: absolute;
+    /*top:50%;*/
+    left: 42%;
+    top:10%;
+}
+.phone-logo .jihuo .jihuo-title {
+    background: #ffe300;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+   line-height: 50px;
+    color: #ff6613;
+    font-size: 22px;
+}
+.phone-logo .jihuo .jihuo-title i {
+    margin-left: 20px;
+}
+.down-app {
+    position: absolute;
+    top:12%;
+    left: 42%;
+}
+.down-app .ios, .down-app .android {
+    float: left;
+}
+.down-app .logo img {
+    width: 80px;
+    height: 80px;
+    padding: 6px;
+}
+.down-app .logo a {
+   display: inline-block;
+    color: #fff;
+}
+.intro-img {
+    margin: 0 auto;
+    text-align: center;
+}
+.info {
+    margin: 0 auto;
+    text-align: center;
+}

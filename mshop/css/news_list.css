@@ -1,0 +1,64 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: fixed;
+    background: #f5f5f5;
+    z-index: 10;
+}
+.header-wrapper {
+    padding: 0 1rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.header-wrapper .header-left {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.header-wrapper .header-left i {
+    color: #333;
+    font-size: 16px;
+}
+.header-wrapper .header-title {
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*交易记录*/
+section {
+    width: 100%;
+    position: relative;
+    padding-top: 4rem;
+    background-color: #fff;
+}
+section .section-wrapper {
+    margin: 1rem 1.4rem;
+}
+.news-list {
+    border-top: 1px solid #F5F5F5;
+    overflow: hidden;
+    line-height: 2.4;
+}
+.news-list h4, .news-list span {
+    font-size: 15px;
+    color: #888888;
+    font-weight: 400;
+}
+.news-list h4 {
+    float: left;
+}
+.news-list span {
+    float: right;
+}
+.news-list span i {
+    font-weight: 300;
+    font-size: 12px;
+}

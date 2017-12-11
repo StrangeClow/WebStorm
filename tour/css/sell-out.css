@@ -1,0 +1,240 @@
+html {
+    font-size: 62.5%;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+* {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+body {
+    background: url("../imgs/bg.gif") repeat;
+}
+.frame {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 100%;
+    top:  0px;
+    left: 0px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #FF5400;
+    font-size: 14px;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    z-index: 4;
+    border-bottom: 1px solid #cccccc;
+}
+header .header-left {
+    float: left;
+}
+header .header-left a {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    left: 8px;
+    z-index: 3;
+    text-decoration: none;
+    color: #ffffff;
+}
+header .header-left a img {
+    max-width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+header .header-middle {
+    display: inline-block;
+}
+header .header-middle a {
+    color: orangered;
+}
+header .header-right {
+    float: right;
+    position: relative;
+    right: 1.2rem;
+}
+header .header-right a {
+    color: orangered;
+}
+header .header-right a i {
+    font-size: 22px;
+}
+/*主体部分*/
+.container {
+    position: relative;
+    top:0;
+    width: 100%;
+    height: auto;
+}
+.con {
+    position: relative;
+    margin: 1rem;
+    top:0;
+}
+.con-main {
+    width: 100%;
+    position: relative;
+}
+.con-img {
+    width: 100%;
+    position: relative;
+}
+.con-img img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.con-detail {
+    position: relative;
+    top:0;
+}
+.title {
+    background: #000000;
+    opacity: 0.5;
+    line-height: 2.1rem;
+    height: 4.2rem;
+    position: absolute;
+    z-index: 1;
+    top:-4.5rem;
+    width: 100%;
+}
+.title-one {
+    z-index: 5;
+    position: absolute;
+    top:-4.5rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+.title-one span {
+     font-size: 1.6rem;
+ }
+.title-two span {
+    font-size: 1.4rem;
+}
+.title-two {
+    line-height: 2rem;
+    height: 2rem;
+    z-index: 5;
+    position: absolute;
+    top:-3rem;
+}
+.title-one span, .title-two span {
+    color: #FF0000;
+}
+.price-time {
+    position: relative;
+    height: 4rem;
+    line-height: 4rem;
+    background: rgba(20,188,220,0.99);
+}
+.price-time .price {
+    float: left;
+}
+.price-time .time {
+    float: right;
+}
+.price-time span {
+    font-size: 1.3rem;
+    color: #fff;
+}
+.more {
+    margin-bottom: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.more a, .theme a {
+    font-size: 1.4rem;
+    color: orange;
+
+}
+.theme {
+    margin-bottom: 22rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: rgba(109,192,255,0.82);
+}
+/*底部菜单栏*/
+
+.footer {
+    width: 100%;
+    height: 44px;
+    line-height:44px;
+    vertical-align: middle;
+    position: fixed;
+    bottom: 0;
+    background: #00a1e9;
+}
+.footer ul {
+    /*margin-left: -2px;*/
+}
+.footer ul li.first-menu {
+    text-align: center;
+    list-style: none;
+    float: left;
+    width: calc((100% / 3) - 1px);
+    border-top: 1px solid #6C6C6C;
+    border-right: 1px solid #6C6C6C;
+}
+.footer .last {
+    border-right: none;
+    text-align: center;
+    list-style: none;
+    float: left;
+    width: calc((100% / 3) - 1px);
+    border-top: 1px solid #6C6C6C;
+}
+.footer ul li i {
+    margin-right: 0.1rem;
+}
+.footer ul li a {
+    font-size: 16px;
+    color: #fff;
+}
+.footer ul div[class|=list-item] {
+    position: absolute;
+    bottom: 50px;
+    width: calc((100% / 3) - 40px);
+    margin: 0 20px;
+    border: 1px solid #999999;
+    background: #f9fafb;
+    display: block;
+}
+.footer ul li.active-li:active + div[class|=list-item]{
+    display: block;
+}
+.footer ul div[class|=list-item] ul li{
+    list-style: none;
+    float: none;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+}
+.footer ul div[class|=list-item] ul li.bottom-line{
+    border-bottom: 1px solid #aaaaaa;
+    width: 70px;
+    margin: 0 auto;
+}
+.footer ul div[class|=list-item] ul li a {
+    color: #454545;
+    font-size: 15px;
+
+}

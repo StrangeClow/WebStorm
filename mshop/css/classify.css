@@ -1,0 +1,179 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 100%;
+}
+header {
+    position: relative;
+    width: 100%;
+}
+.header-search {
+    background-color: #e3e3e3;
+    padding: 0 .6rem;
+}
+.search-inner {
+    text-align: center;
+    padding: .6rem 0;
+    font-size: 14px;
+}
+.search-inner i {
+    position: absolute;
+    left: 28%;
+    top: 40%;
+    color: #666;
+}
+.search-inner input {
+    width: 100%;
+    border-radius: .4rem;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    padding: .6rem 0;
+
+}
+/*产品分类*/
+.classify {
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.classify-inner {
+
+}
+aside {
+    background-color: #f5f5f5;
+}
+.menu-left {
+    position: fixed;
+    left: 0;
+    top: 4.4rem;
+    bottom: 0;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+}
+.menu-left ul {
+
+}
+.menu-left ul li {
+
+}
+.menu-left ul .active {
+    background-color: #fff;
+}
+.menu-left ul .active::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 4rem;
+    background: #e21323;
+    top: 0;
+    left: 0;
+}
+.menu-left ul li a {
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #333;
+    width: 7.6rem;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    text-align: center;
+    display: block;
+}
+
+section {
+    background: #fff;
+    position: inherit;
+    margin-left: 7.7rem;
+    right: 0;
+    bottom: 0;
+}
+.section-title {
+    font-size: 12px;
+    padding-top: 2px;
+    color: #666;
+    margin-top: 1.2rem;
+    margin-bottom: .4rem;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: .4rem;
+}
+.section-list {
+    position: relative;
+    width: 100%;
+}
+.section-list ul {
+    overflow: hidden;
+}
+.section-list ul li {
+    float: left;
+    width: calc((100% / 3));
+    text-align: center;
+    padding: .6rem 0;
+    position: relative;
+}
+.section-list ul li a {
+    display: inline-block;
+}
+.section-list ul li a img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: .2rem;
+}
+.section-list ul li p {
+    display: block;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: 10px;
+    color: #888;
+}
+
+/*footer begin*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 10;
+    background: #f7f7fa;
+}
+footer ul {
+    overflow: hidden;
+    border-top: 1px solid #fff;
+}
+footer ul li {
+    padding: 1rem 0 0 0;
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+    margin: 0 auto;
+}
+footer ul li a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+footer li a img{
+    width: 2.2rem;
+    height: 2.2rem;
+    display: inline-block;
+}
+footer ul li a p {
+    color: #333;
+}
+footer ul li:last-child a span {
+    position: absolute;
+    top: -.7rem;
+    right: 5%;
+    background: #ff5656;
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #fff;
+
+}

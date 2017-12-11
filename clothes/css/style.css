@@ -1,0 +1,56 @@
+header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    min-height: 5rem;
+}
+header h2 {
+    color: crimson;
+    font-weight: 500;
+    letter-spacing: .2rem;
+}
+header h3 {
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.container {
+    position: relative;
+    height: auto;
+    margin: 2rem .5rem 0 .5rem ;
+    overflow: hidden;
+}
+.product-list:first-child {
+    width: calc(50% - 1rem);
+    margin: 0 .5rem;
+    float: left;
+}
+.product-list:nth-of-type(2) {
+    width: calc(50% - .5rem);
+    float: left;
+    margin: 0 .5rem 0 0;
+}
+.product-list:nth-of-type(3) {
+    width: 100%;
+}
+.product-list img {
+    width: 100%;
+    height: auto;
+}
+.three img {
+    width: 100%;
+    height: 24rem;
+}
+.product-intro {
+    position: relative;
+    margin-top: 1rem;
+}
+.product-intro p {
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+    color: #6C6C6C;
+}
+.product-intro p span {
+    color: crimson;
+    line-height: 2.8rem;
+}

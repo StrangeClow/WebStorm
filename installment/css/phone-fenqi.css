@@ -1,0 +1,122 @@
+section .phone-logo {
+
+}
+section .phone-app {
+    position: absolute;
+    right: 550px;
+    top:240px;
+}
+.phone-app .phone-ios, .phone-app .phone-android {
+    float: left;
+    width: 140px;
+    height:140px;
+    margin: 0 10px;
+}
+.phone-app img {
+    width: 100%;
+    height:auto;
+}
+.phone-app a {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    background: orange;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.phone-app a i {
+    margin-right: 8px;
+}
+.middle-title {
+    position: relative;
+    width: 1000px;
+    text-align: center;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.middle-title span:first-child {
+    border-bottom: 1px solid #00bdd5;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    margin-top: 13px;
+}
+.middle-title span:nth-of-type(2) {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    border-radius: 16px;
+    background: rgb(0, 189, 213);
+}
+.middle-title span:nth-of-type(3) {
+    border-bottom: 1px solid #00bdd5;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    margin-top: 13px;
+ }
+.intro-img {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+}
+.intro-img ul {
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #00bdd5;
+}
+.intro-img ul li img{
+    margin-bottom: 80px;
+}
+.down {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.down .down-title {
+    margin: 30px 0;
+    font-size: 30px;
+    font-family: "微软雅黑 Light";
+    font-weight: 700;
+    color: #6C6C6C;
+}
+.down-yingyong {
+    width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.down-yingyong .down-ios, .down-yingyong .down-android {
+    width: 180px;
+   display: inline-block;
+    margin:  0 20px ;
+}
+ .down .down-yingyong a {
+    width: 170px;
+    height: 42px;
+    border: 2px solid #00bdd5;
+    color: #00bdd5;
+    display: inline-block;
+     border-radius: 6px;
+     /*line-height: 42px;*/
+}
+.down .down-yingyong a i {
+
+    display: inline-block;
+   padding: 4px 10px 4px 0;
+
+}

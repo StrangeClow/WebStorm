@@ -1,0 +1,59 @@
+body {
+    background: #f1f1f1;
+}
+.carousel {
+    position: relative;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel .bg {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.small {
+    position: absolute;
+    bottom: 60%;
+    z-index: 2;
+    left: 30%;
+    width: 10rem;
+}
+.contact-us {
+    margin-top: 2rem;
+    position: relative;
+    height: 5rem;
+    background: url("../imgs/about_img2.jpg") no-repeat 0 0;
+}
+.con-bg {
+    text-align: center;
+    z-index: 5;
+    width: 10rem;
+    left: 34%;
+    background: #fff;
+    position: absolute;
+    bottom: 10%;
+}
+.address {
+    margin-top: 2rem;
+    text-align: center;
+}
+.address p {
+    line-height: 3rem;
+    color: #666666;
+    font-size: 1.5rem;
+}
+
+
+.index {
+    height: 4rem;
+    width: 100%;
+    line-height: 4rem;
+    background: cadetblue;
+    text-align: center;
+}
+.index a {
+    color: #fff;
+    font-size: 1.8rem;
+}

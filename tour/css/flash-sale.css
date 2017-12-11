@@ -1,0 +1,196 @@
+html {
+    font-size: 62.5%;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+* {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+body {
+    font-size: 1.4rem;
+    background: url("../imgs/bg.gif") repeat;
+}
+.frame {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 100%;
+    top:  0px;
+    left: 0px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: #FF5400;
+    font-size: 14px;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    z-index: 4;
+    border-bottom: 1px solid #cccccc;
+}
+header .header-left {
+    float: left;
+}
+header .header-left a {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    left: 8px;
+    z-index: 3;
+    text-decoration: none;
+    color: #ffffff;
+}
+header .header-left a img {
+    max-width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+header .header-middle {
+    display: inline-block;
+}
+header .header-middle a {
+    color: orangered;
+}
+header .header-right {
+    float: right;
+    position: relative;
+    right: 1.2rem;
+}
+header .header-right a {
+    color: orangered;
+}
+header .header-right a i {
+    font-size: 22px;
+}
+
+/*container begin*/
+.container {
+    position: relative;
+    top:-1rem;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+.con {
+    position: relative;
+    margin: 2rem 1rem 1rem 1rem;
+}
+.con-header {
+    position:relative;
+   height: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+.con-header ul {
+    overflow: hidden;
+}
+.con-header ul li {
+    float: left;
+    /*width: calc((100% / 4)- 4rem);*/
+    text-align: center;
+    width: calc(25% - .4rem);
+    height: 3rem;
+    line-height: 3rem;
+    border: .1rem solid #000000;
+    margin: 0 .1rem;
+}
+.con-header li a {
+    color: crimson;
+    font-size: 1.6rem;
+}
+.con-main {
+    position: relative;
+    margin: 1rem 0;
+    max-width: 72rem;
+    height: auto;
+    overflow: hidden;
+}
+.con-item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.con-item .con-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-height: 27rem;
+}
+.con-item .con-img img {
+   width: 100%;
+    height: auto;
+}
+.con-info {
+    position: relative;
+    top: 0;
+}
+.con-info .bg {
+    width: 100%;
+    height: 5rem;
+    background: #000000;
+     z-index: 1;
+    opacity: .5;
+    position: absolute;
+    bottom: 5rem;
+}
+.con-info .con-title {
+    position: absolute;
+    bottom: 5rem;
+    z-index: 5;
+}
+.con-info .b {
+    color: red;
+    font-size: 1.4rem;
+}
+.con-title .s {
+    color: orangered;
+}
+.con-detail {
+    background: #D76B56;
+    position: relative;
+    width: 100%;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    bottom: .5rem;
+}
+.con-detail .price {
+    float: left;
+}
+.con-detail .price span {
+    color: rgba(197,21,128,0.91);
+    font-size: 1.8rem;
+}
+.con-detail .time {
+    float: right;
+}
+.con-detail .time span {
+   font-size: 1.6rem;
+    color: #fff;
+}
+.more {
+    background: rgba(45,112,197,0.95);
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.more a {
+    height: 4rem;
+    line-height: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+}

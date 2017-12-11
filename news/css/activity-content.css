@@ -1,0 +1,299 @@
+header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
+    max-width: 72rem;
+    z-index: 999;
+}
+header .wrapper {
+    padding: 1rem 1.6rem;
+    overflow: hidden;
+}
+header .header-l {
+    float: left;
+}
+header .header-r {
+    float: right;
+}
+header .wrapper i {
+    color: #fff;
+}
+header .wrapper .header-c {
+    width: 100%;
+    text-align: center;
+    line-height: 2.8rem;
+}
+header .wrapper .header-c span {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+.activity-bg {
+    padding-top: 4.8rem;
+}
+.activity-bg img{
+    width: 100%;
+    height: auto;
+}
+.con-wrapper {
+    position: relative;
+    margin: 2rem 1.4rem 0 1.4rem ;
+}
+
+/*主题内容*/
+.con-wrapper .title h1 {
+    font-size: 2.4rem;
+    color: #222;
+}
+.activity-base-info {
+    position: relative;
+    margin: 0 0 2rem 0 ;
+}
+.activity-base-info p {
+    line-height: 2.5rem;
+    color: #aaaaaa;
+    font-size: 1.5rem;
+}
+.activity-base-info p i {
+    padding-right: 1rem;
+}
+
+/*坐席购买*/
+.site {
+
+}
+.site .site-title {
+    font-size: 1.8rem;
+}
+.site-list-wrapper {
+    overflow: hidden;
+}
+.site .site-list {
+    width: 10rem;
+    height: 4rem;
+    float: left;
+   border: 1px solid #a1a1a1;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.site .site-list p {
+    color: #222;
+}
+.site-list-wrapper .checked {
+    background: #ff5656;
+    color: #fff;
+}
+.site-info {
+margin: 1rem 0;
+}
+.site-info p {
+font-size: 1.2rem;
+    line-height: 2rem;
+}
+.site-info p span {
+    color: #ff5656;
+}
+.order-number {
+
+}
+.order-number select {
+    width: 7rem;
+    height: 3rem;
+    margin-top: .2rem;
+}
+.site-button {
+  padding: 1rem 0;
+}
+.site-button button {
+    border: none;
+    width: 10rem;
+    height: 4rem;
+    background: orange;
+    color: #fff;
+}
+
+.activity-content {
+
+}
+.activity-content .content-title {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 1.4rem 0;
+}
+.activity-content .content-title a{
+ font-size: 1.8rem;
+    color: #222;
+}
+.now-theme {
+    position: relative;
+}
+.now-theme .now-theme-title {
+  padding: 1.5rem 0;
+}
+.now-theme .now-theme-title a {
+    color: #ff5656;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-bottom: 2px solid #ff5656;
+}
+.now-content {
+
+}
+.now-content p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+.now-theme .now-bg img{
+width: 100%;
+    height: auto;
+}
+.theme-item {
+    position: relative;
+    width: 100%;
+    padding: 3rem 0 2rem 0;
+}
+.theme-item ul {
+    overflow: hidden;
+    position: relative;
+}
+.theme-item ul li {
+    position: relative;
+    border: 1px solid #a1a1a1;
+   width: calc((100% / 3) - 2rem);
+    height: 3.6rem;
+    /*padding: 0 2rem;*/
+    border-radius: 1rem;
+    float: left;
+    line-height: 3.6rem;
+    text-align: center;
+}
+.theme-item ul li:nth-of-type(1) {
+   margin-right: 2rem;
+}
+.theme-item ul li:nth-of-type(2) {
+    margin:0 1rem;
+}
+.theme-item ul li:nth-of-type(3) {
+    margin-left: 1rem;
+}
+.theme-item ul li a {
+ color: #6C6C6C;
+}
+.theme-item ul li a i {
+  margin-right: .6rem;
+}
+.theme-item ul li:nth-of-type(1) a i {
+color: crimson;
+}
+.theme-item ul li:nth-of-type(2) a i{
+color: lawngreen;
+}
+.theme-item ul li:nth-of-type(3) a i {
+color: #00a1e9;
+}
+
+
+/*精彩评论*/
+.great-discuss {
+    position: relative;
+}
+.great-discuss .discuss-header {
+    overflow: hidden;
+    padding: 2rem 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.great-discuss .discuss-header .l {
+    float: left;
+    line-height: 4rem;
+}
+.great-discuss .discuss-header .l a{
+   color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.great-discuss .discuss-header .r {
+    float: right;
+    font-size: 0;
+}
+.great-discuss .l-wrapper {
+    border: 1px solid #a1a1a1;
+    border-radius: 3rem;
+}
+.great-discuss .discuss-header .r  a{
+    color: #cacaca;
+    display: inline-block;
+    padding: .5rem;
+    margin: .5rem;
+}
+.great-discuss .discuss-header .r  a:first-child {
+    color: #6C6C6C;
+    border-right: 1px solid #a1a1a1;
+}
+.great-discuss .discuss-header .r  a:nth-of-type(2) {
+    border-right: 1px solid #a1a1a1;
+}
+.discuss-content {
+    position: relative;
+    padding: 1.4rem 0;
+    border-bottom: 1px solid #f1f1f1;
+    overflow: hidden;
+}
+.discuss-content .l {
+    float: left;
+    position: relative;
+}
+.discuss-content .l a {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+}
+.discuss-content .l a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.discuss-content .r-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.discuss-content .r {
+    float: left;
+    margin-left: 1rem;
+}
+.r-wrapper .user {
+    font-size: 1.6rem;
+    color: #333333;
+}
+.r-wrapper p {
+    line-height: 2.4rem;
+}
+.r-wrapper .star {
+    position: relative;
+    overflow: hidden;
+}
+.r-wrapper .star .star-l {
+    float: left;
+}
+.r-wrapper .star .star-r {
+    float: right;
+}
+.r-wrapper .star-r a:first-child {
+    margin-right: 2rem;
+    color: #6C6C6C;
+}
+.r-wrapper .star-r a:first-child i {
+    color: #ff5656;
+    margin-right: .5rem;
+}
+.r-wrapper .star-r a:last-child {
+    color: #666;
+}
+.r-wrapper p span {
+    color: orangered;
+}

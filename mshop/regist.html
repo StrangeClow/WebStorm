@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!-- 启用360浏览器的极速模式(webkit) -->
+		<meta name="renderer" content="webkit">
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 不让百度转码 -->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/regist.css" />
+		<link href="https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<body ontouchstart style="background:#323542;">
+	   <header>
+		   <div class="header-wrapper">
+			   <div class="header-left"><a href="login.html"><i class="fa fa-arrow-left"></i></a></div>
+			   <div class="header-title">手机注册</div>
+		   </div>
+	   </header>
+	<div class="login-box">
+		<form action="#">
+			<div class="phone">
+				<label for="">手机号</label>
+				<input type="text" placeholder="请输入手机号">
+				<button>获取验证码</button>
+			</div>
+			<div class="code">
+				<label for="">验证码</label>
+				<input type="password" placeholder="请输入验证码">
+				<img src="images/vcode.jpg" alt="">
+			</div>
+			<div class="set-pwd">
+				<label for="">输入密码</label>
+				<input type="text" placeholder="请输入密码">
+			</div>
+			<div class="set-pwd">
+				<label for="">确认密码</label>
+				<input type="password" placeholder="请再次输入密码">
+			</div>
+			<div class="read-xieyi">
+				<input type="checkbox" class="checkbox"> <a href="xieyi.html">阅读并同意 <span>《注册协议》</span></a>
+			</div>
+			<button class="login">注册并登录</button>
+			<p>登录账号为您输入的手机号码</p>
+			<a href="xieyi.html" class="xieyi">查看注册协议</a>
+		</form>
+	</div>
+	</body>
+</html>
