@@ -1,0 +1,58 @@
+.practice {
+    padding: 5em 0;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.resource li a, .practice li a {
+    color: #9E6E4E;
+    font-size: 1em;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0.15em 0.8em;
+    display: inherit;
+    line-height: 1.8em;
+}
+.resource li, .practice li {
+    display: block;
+}
+.clients h3, .practice h3, .resource h3, .contact h3 {
+    font-size: 2.5em;
+    margin: 0 0 1.5em;
+    color: #9E6E4E;
+    font-family: 'RobotoSlab-Regular';
+}
+.clients p, .practice p, .resource p, .contact p {
+    font-size: 1em;
+    line-height: 1.8em;
+    margin: 0em 0 1em;
+    color: #797979;
+}
+.pra-lft {
+    float: left;
+    width: 40%;
+    margin-right: 2%;
+}
+.pra-rgt {
+    float: left;
+    width: 58%;
+}
+.clients p, .practice p, .resource p, .contact p {
+    font-size: 1em;
+    line-height: 1.8em;
+    margin: 0em 0 1em;
+    color: #797979;
+}
+.pra-tp {
+    margin: 4em 0 0;
+}
+.practice ul li {
+
+}
+.practice ul.list-item li a {
+    font-size: 18px;
+    font-weight: 600 ;
+
+}

@@ -1,0 +1,244 @@
+body {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-top {
+    padding: 1em 0;
+}
+.head-main{
+    float: left;
+    width: 25%;
+}
+.head-main a {
+    color: #9E6E4E;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:'Real Bttsoief';
+}
+.head-rg {
+    float: right;
+    margin: 0.6em 0;
+}
+.head-rg a {
+    font-weight: 500;
+    color: #fff;
+    background-color: #9E6E4E;
+    padding: 0.6em 1.6em;
+    display: block;
+    text-decoration: none;
+}
+.navigation {
+    float: left;
+    margin: 0.6em 0 0;
+}
+.navbar {
+    position: relative;
+    min-height:50px;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-default {
+    background-color: #fff! important;
+    border-color: #fff ! important;
+}
+.navbar-nav li{
+   padding: 0 1.4em;
+}
+.navbar-nav li a {
+    font-weight: 500;
+    font-family: "微软雅黑 Light";
+    color: #9E6E4E !important;
+    font-size: 15px;
+}
+.header {
+    padding: 1em 0;
+    box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+}
+.header .head {
+    position: relative;
+    overflow: hidden;
+}
+.soc {
+    float: left;
+    margin: 0.4em 0;
+}
+ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.soc ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+.soc ul li span {
+    background: url(../images/social.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.soc ul li a span.fb {
+    background-position: 0px 0px;
+}
+.soc ul li a span.twit {
+    background-position: -16px 0px;
+}
+.soc ul li a span.pin {
+    background-position: -32px 0px;
+}
+.soc ul li a span.rss {
+    background-position: -48px 0px;
+}
+.soc ul li a span.drbl {
+    background-position: -64px 0px;
+}
+.head .search {
+    float: right;
+}
+.head .search .search-bar {
+    width: 100%;
+    float: right;
+    position: relative;
+}
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 8px 45px 8px 8px;
+    background: none;
+    outline: none;
+    -webkit-appearance: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 0.875em;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'RobotoSlab-Regular';
+}
+.search-bar input[type="submit"] {
+    background: url(../images/search.png)no-repeat 0px 0px;
+    outline: none;
+    -webkit-appearance: none;
+    border: 0;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    right: 1%;
+}
+
+/*轮播图开始*/
+.banner {
+    background: url(../images/1.jpg) no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    position: relative;
+}
+.flexslider {
+    margin: 0 0 0px;
+    background: ;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    zoom: 1;
+}
+/*轮播结束*/
+
+.welcome li a {
+    color: #D8B7B4;
+    font-size: 1em;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: #774F4B;
+    padding: 0.15em 0.8em;
+    display: inherit;
+}
+.welcome li {
+    display: block;
+    line-height: 2em;
+    margin: 0.4em 0;
+}
+.hvr-shutter-in-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #50393A;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    padding: 0.4em 0.8em;
+    font-size: 0.85em;
+    color: #fff;
+}
+.welcome {
+    padding: 5em 0;
+}
+.col-md-8.welcome-left {
+    border-right: 1px solid #D8CFCA;
+}
+.welcome h3 {
+    font-size: 2.5em;
+    margin: 0 0 1.5em;
+    color: #9E6E4E;
+    font-family: 'RobotoSlab-Regular';
+}
+.wel-lft {
+    padding-left: 0;
+}
+.welcome p {
+    font-size: 1em;
+    line-height: 1.8em;
+    margin: 0em 0 1em;
+    color: #797979;
+}
+
+/*事件*/
+.case {
+    padding: 5em 0px;
+
+}
+.new-lft{
+
+}
+.new-rgt {
+   padding: 0 10px;
+}
+.news {
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #2B2526;
+    padding: 3em 0 0;
+}
+.footer h4 {
+    font-size: 2em;
+    color: #fff;
+    font-family: 'RobotoSlab-Regular';
+    margin: 0em 0 1em;
+}
+.cont-tp {
+    border-bottom: 1px solid #fff;
+    padding: 0 0 0.5em;
+    margin: 0 0 1.5em;
+    width: 55%;
+}
+.footer .address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.8em;
+    color: #fff;
+}

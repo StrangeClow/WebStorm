@@ -1,0 +1,31 @@
+.clients {
+    margin: 30px 0;
+}
+
+.contact-bottom input[type="text"], .contact-bottom textarea {
+    font-size: 1em;
+    width: 80%;
+    padding: 0.6em;
+    margin: 1em 0;
+    outline: none;
+    background: none;
+    color: #544D4D;
+    border: 1px solid #544D4D;
+    display: block;
+}
+.contact-bottom textarea {
+    resize: none;
+    width: 100%;
+    min-height: 170px;
+}
+.contact-bottom input[type="submit"] {
+    padding: 0.3em 1em;
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #9E6E4E;
+}
+.contact {
+    margin: 30px 0;
+}
